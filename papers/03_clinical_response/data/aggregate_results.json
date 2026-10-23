@@ -1,0 +1,5502 @@
+{
+  "clinical_units": {
+    "C1": {
+      "slope_pp_per_CDRSB": {
+        "BASE": -0.04427551192664429,
+        "A5": 0.42793228256552857,
+        "paired": 0.4722077944921734
+      },
+      "hc3_se_pp_per_CDRSB": {
+        "BASE": 0.24930877477805308,
+        "A5": 0.28760404847364746,
+        "paired": 0.24699194224934196
+      },
+      "mean_J_percent": {
+        "BASE": 16.414606229506994,
+        "A5": 13.793526156466854
+      },
+      "mean_delta_J_pp": -2.6210800730401425,
+      "decomposition_pp_per_CDRSB": {
+        "observed_slope": 0.6540790131546186,
+        "reference_slope": 0.18187121866244504,
+        "slope": 0.4722077944921734
+      },
+      "paired_phase_mcse_pp": 0.004085118003019409,
+      "paired_phase_mcse_max_covariance_pp": 0.005735059936641289
+    },
+    "DCT": {
+      "slope_pp_per_CDRSB": {
+        "BASE": -0.0315248333164176,
+        "A5": 0.43257052024191844,
+        "paired": 0.46409535355833614
+      },
+      "hc3_se_pp_per_CDRSB": {
+        "BASE": 0.21889403561448037,
+        "A5": 0.1909880104881432,
+        "paired": 0.22096492974238885
+      },
+      "mean_J_percent": {
+        "BASE": 15.285901966804117,
+        "A5": 12.228677103753311
+      },
+      "mean_delta_J_pp": -3.0572248630508043,
+      "decomposition_pp_per_CDRSB": {
+        "observed_slope": 0.7255133884446545,
+        "reference_slope": 0.2614180348863185,
+        "slope": 0.46409535355833614
+      },
+      "paired_phase_mcse_pp": 0.0038120730459461215,
+      "paired_phase_mcse_max_covariance_pp": 0.005326302740175617
+    },
+    "slope_change_pp": -0.008112440933837322,
+    "mean_delta_change_pp": -0.436144790010663,
+    "slope_change_conditional_phase_mcse_pp": 0.003786285756611142,
+    "frozen_reference_t": {
+      "mean": 0.0018320108396527488,
+      "sample_sd": 0.8189331359064856,
+      "draws": 19999,
+      "exceedances": 151,
+      "p": 0.0076
+    }
+  },
+  "mechanism_summaries": [
+    {
+      "N": 197,
+      "world": "null",
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "metrics": {
+        "delta_J": {
+          "mean": [
+            -0.0006455779721390937,
+            -0.0006455779721390937,
+            -0.0006455779721390937,
+            -0.0006455779721390937,
+            -0.0006455779721390937
+          ],
+          "simulation_SE": [
+            0.0011663393035172668,
+            0.0011663393035172668,
+            0.0011663393035172668,
+            0.0011663393035172668,
+            0.0011663393035172668
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_observed": {
+          "mean": [
+            -0.008801321127392216,
+            -0.008801321127392216,
+            -0.008801321127392216,
+            -0.008801321127392216,
+            -0.008801321127392216
+          ],
+          "simulation_SE": [
+            0.0011097266593517628,
+            0.0011097266593517628,
+            0.0011097266593517628,
+            0.0011097266593517628,
+            0.0011097266593517628
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_reference": {
+          "mean": [
+            -0.008155743155253121,
+            -0.008155743155253121,
+            -0.008155743155253121,
+            -0.008155743155253121,
+            -0.008155743155253121
+          ],
+          "simulation_SE": [
+            0.0006015094778914604,
+            0.0006015094778914604,
+            0.0006015094778914604,
+            0.0006015094778914604,
+            0.0006015094778914604
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "paired_reference_MCSE": {
+          "mean": [
+            0.0002778714841745653,
+            0.0002778714841745653,
+            0.0002778714841745653,
+            0.0002778714841745653,
+            0.0002778714841745653
+          ],
+          "simulation_SE": [
+            1.3309276579655192e-05,
+            1.3309276579655192e-05,
+            1.3309276579655192e-05,
+            1.3309276579655192e-05,
+            1.3309276579655192e-05
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "signal_retention": {
+          "mean": [
+            0.9509266569235655,
+            0.9509266569235655,
+            0.9509266569235655,
+            0.9509266569235655,
+            0.9509266569235655
+          ],
+          "simulation_SE": [
+            0.0025180450717713675,
+            0.0025180450717713675,
+            0.0025180450717713675,
+            0.0025180450717713675,
+            0.0025180450717713675
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_excess": {
+          "mean": [
+            0.006454137664342497,
+            0.006454137664342497,
+            0.006454137664342497,
+            0.006454137664342497,
+            0.006454137664342497
+          ],
+          "simulation_SE": [
+            0.0015111843147338658,
+            0.0015111843147338658,
+            0.0015111843147338658,
+            0.0015111843147338658,
+            0.0015111843147338658
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_observed_rho2": {
+          "mean": [
+            0.13155568133045473,
+            0.13155568133045473,
+            0.13155568133045473,
+            0.13155568133045473,
+            0.13155568133045473
+          ],
+          "simulation_SE": [
+            0.0028014125566125795,
+            0.0028014125566125795,
+            0.0028014125566125795,
+            0.0028014125566125795,
+            0.0028014125566125795
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_surrogate_mean": {
+          "mean": [
+            0.12510154366611223,
+            0.12510154366611223,
+            0.12510154366611223,
+            0.12510154366611223,
+            0.12510154366611223
+          ],
+          "simulation_SE": [
+            0.0022640261876915296,
+            0.0022640261876915296,
+            0.0022640261876915296,
+            0.0022640261876915296,
+            0.0022640261876915296
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_excess": {
+          "mean": [
+            0.005808559692203404,
+            0.005808559692203404,
+            0.005808559692203404,
+            0.005808559692203404,
+            0.005808559692203404
+          ],
+          "simulation_SE": [
+            0.0010290307871126001,
+            0.0010290307871126001,
+            0.0010290307871126001,
+            0.0010290307871126001,
+            0.0010290307871126001
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_observed_rho2": {
+          "mean": [
+            0.1227543602030625,
+            0.1227543602030625,
+            0.1227543602030625,
+            0.1227543602030625,
+            0.1227543602030625
+          ],
+          "simulation_SE": [
+            0.0024080722589197657,
+            0.0024080722589197657,
+            0.0024080722589197657,
+            0.0024080722589197657,
+            0.0024080722589197657
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_surrogate_mean": {
+          "mean": [
+            0.11694580051085911,
+            0.11694580051085911,
+            0.11694580051085911,
+            0.11694580051085911,
+            0.11694580051085911
+          ],
+          "simulation_SE": [
+            0.0020482835147256784,
+            0.0020482835147256784,
+            0.0020482835147256784,
+            0.0020482835147256784,
+            0.0020482835147256784
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_excess": {
+          "mean": [
+            0.0048920745841088895,
+            0.0048920745841088895,
+            0.0048920745841088895,
+            0.0048920745841088895,
+            0.0048920745841088895
+          ],
+          "simulation_SE": [
+            0.0016753967491218665,
+            0.0016753967491218665,
+            0.0016753967491218665,
+            0.0016753967491218665,
+            0.0016753967491218665
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_observed_rho2": {
+          "mean": [
+            0.142884960805999,
+            0.142884960805999,
+            0.142884960805999,
+            0.142884960805999,
+            0.142884960805999
+          ],
+          "simulation_SE": [
+            0.0026067223763411845,
+            0.0026067223763411845,
+            0.0026067223763411845,
+            0.0026067223763411845,
+            0.0026067223763411845
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_surrogate_mean": {
+          "mean": [
+            0.1379928862218901,
+            0.1379928862218901,
+            0.1379928862218901,
+            0.1379928862218901,
+            0.1379928862218901
+          ],
+          "simulation_SE": [
+            0.0023593825233787077,
+            0.0023593825233787077,
+            0.0023593825233787077,
+            0.0023593825233787077,
+            0.0023593825233787077
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "artifact_retention": {
+          "mean": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "simulation_SE": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "adjacent_mean_difference": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "adjacent_simulation_SE": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "defined_replicates": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "status_by_level": [
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY",
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY",
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY",
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY",
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY"
+          ],
+          "replicates": 16,
+          "scope": "All grid levels retained; artifact retention undefined when both pre/post artifact energies are zero. No invented 0/0 value."
+        }
+      }
+    },
+    {
+      "N": 197,
+      "world": "observation_amplitude",
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0,
+        4.0
+      ],
+      "metrics": {
+        "delta_J": {
+          "mean": [
+            8.698322222609224e-05,
+            -0.019557127679017655,
+            -0.08416581998321117,
+            -0.10044794999090058,
+            -0.0558476912972284
+          ],
+          "simulation_SE": [
+            0.0012198202835243567,
+            0.003553933730223883,
+            0.008557213711356829,
+            0.010077876205766527,
+            0.009828021599558827
+          ],
+          "adjacent_mean_difference": [
+            -0.019644110901243753,
+            -0.0646086923041935,
+            -0.016282130007689424,
+            0.04460025869367218
+          ],
+          "adjacent_simulation_SE": [
+            0.004011003778476456,
+            0.005680480655369263,
+            0.0035042846356967677,
+            0.00238872235804718
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_observed": {
+          "mean": [
+            -0.0071595958475994355,
+            -0.02638895730512797,
+            -0.09536450761513873,
+            -0.11595417630540786,
+            -0.06441242339996484
+          ],
+          "simulation_SE": [
+            0.0012807032169036712,
+            0.004568859328887712,
+            0.011314738423168125,
+            0.0150137066103734,
+            0.015685571514619457
+          ],
+          "adjacent_mean_difference": [
+            -0.019229361457528536,
+            -0.06897555031001078,
+            -0.020589668690269142,
+            0.05154175290544304
+          ],
+          "adjacent_simulation_SE": [
+            0.004891321739495062,
+            0.007347945268034818,
+            0.005415598615437061,
+            0.003220575901728166
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_reference": {
+          "mean": [
+            -0.007246579069825528,
+            -0.006831829626110316,
+            -0.011198687631927579,
+            -0.015506226314507295,
+            -0.008564732102736432
+          ],
+          "simulation_SE": [
+            0.0005182187424104479,
+            0.0015691783851791675,
+            0.0034925786744090625,
+            0.005796587744939657,
+            0.0067993119163279395
+          ],
+          "adjacent_mean_difference": [
+            0.000414749443715212,
+            -0.0043668580058172654,
+            -0.004307538682579719,
+            0.006941494211770869
+          ],
+          "adjacent_simulation_SE": [
+            0.0014817378470264033,
+            0.002177169909516516,
+            0.002717000901483318,
+            0.0017238385761937877
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "paired_reference_MCSE": {
+          "mean": [
+            0.0002709588997523514,
+            0.0004929852359560857,
+            0.0006841264969096868,
+            0.0008249018228850445,
+            0.0009265232560998018
+          ],
+          "simulation_SE": [
+            1.2458395455210997e-05,
+            1.848658938823383e-05,
+            2.272087846928051e-05,
+            2.775139637797991e-05,
+            3.524468342498621e-05
+          ],
+          "adjacent_mean_difference": [
+            0.00022202633620373424,
+            0.00019114126095360115,
+            0.00014077532597535773,
+            0.00010162143321475723
+          ],
+          "adjacent_simulation_SE": [
+            1.4550819909564136e-05,
+            1.3839645952622382e-05,
+            1.3330418615930785e-05,
+            1.7296853835109158e-05
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "signal_retention": {
+          "mean": [
+            0.9537788564924615,
+            0.9537788564924615,
+            0.9537788564924615,
+            0.9537788564924615,
+            0.9537788564924615
+          ],
+          "simulation_SE": [
+            0.0025789671407076328,
+            0.0025789671407076328,
+            0.0025789671407076328,
+            0.0025789671407076328,
+            0.0025789671407076328
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_excess": {
+          "mean": [
+            0.006454137664342497,
+            0.030044591465063674,
+            0.11457374375766641,
+            0.2056738480458975,
+            0.24990990268900495
+          ],
+          "simulation_SE": [
+            0.0015111843147338658,
+            0.0031202132611608414,
+            0.006774509709213771,
+            0.007951272889089995,
+            0.00810611468258571
+          ],
+          "adjacent_mean_difference": [
+            0.023590453800721178,
+            0.08452915229260273,
+            0.09110010428823109,
+            0.044236054643107425
+          ],
+          "adjacent_simulation_SE": [
+            0.003670027699223182,
+            0.0043940299992854155,
+            0.0026524133456913845,
+            0.0018538787829954055
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_observed_rho2": {
+          "mean": [
+            0.13155568133045473,
+            0.15371034175074785,
+            0.24263115818879336,
+            0.3435864828605031,
+            0.3940508264510355
+          ],
+          "simulation_SE": [
+            0.0028014125566125795,
+            0.0038264340569373815,
+            0.008178090314392084,
+            0.01045011307769215,
+            0.011141152472321274
+          ],
+          "adjacent_mean_difference": [
+            0.02215466042029315,
+            0.08892081643804552,
+            0.10095532467170973,
+            0.050464343590532375
+          ],
+          "adjacent_simulation_SE": [
+            0.004265647812680252,
+            0.005637452356811805,
+            0.003837436088367596,
+            0.0023349129713065063
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_surrogate_mean": {
+          "mean": [
+            0.12510154366611223,
+            0.1236657502856842,
+            0.12805741443112698,
+            0.13791263481460558,
+            0.14414092376203055
+          ],
+          "simulation_SE": [
+            0.0022640261876915296,
+            0.0016511831716551533,
+            0.0024862020256372287,
+            0.003893633255757373,
+            0.004446980930626927
+          ],
+          "adjacent_mean_difference": [
+            -0.0014357933804280236,
+            0.004391664145442772,
+            0.009855220383478617,
+            0.006228288947424951
+          ],
+          "adjacent_simulation_SE": [
+            0.0016069704453145618,
+            0.001878759554739128,
+            0.0017799550522551715,
+            0.0007715015355013559
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_excess": {
+          "mean": [
+            0.0065411208865685895,
+            0.010487463786046015,
+            0.03040792377445527,
+            0.10522589805499692,
+            0.19406221139177654
+          ],
+          "simulation_SE": [
+            0.0010487082430885382,
+            0.0017274914863760651,
+            0.0037863074521813406,
+            0.004648215517193743,
+            0.0044473348640576005
+          ],
+          "adjacent_mean_difference": [
+            0.003946342899477427,
+            0.019920459988409245,
+            0.07481797428054167,
+            0.0888363133367796
+          ],
+          "adjacent_simulation_SE": [
+            0.001723108399666874,
+            0.0024179468849200823,
+            0.002432796537640805,
+            0.0018448533513997635
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_observed_rho2": {
+          "mean": [
+            0.12439608548285527,
+            0.1273213844456199,
+            0.14726665057365468,
+            0.22763230655509523,
+            0.32963840305107067
+          ],
+          "simulation_SE": [
+            0.0026114167893588245,
+            0.002932098858566208,
+            0.005044499038166918,
+            0.00717928477228408,
+            0.007948996990813447
+          ],
+          "adjacent_mean_difference": [
+            0.002925298962764615,
+            0.019945266128034756,
+            0.08036565598144058,
+            0.10200609649597542
+          ],
+          "adjacent_simulation_SE": [
+            0.0019372550491431847,
+            0.003102011341793354,
+            0.0032884064665246065,
+            0.002565142773959699
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_surrogate_mean": {
+          "mean": [
+            0.1178549645962867,
+            0.11683392065957388,
+            0.11685872679919938,
+            0.12240640850009829,
+            0.1355761916592941
+          ],
+          "simulation_SE": [
+            0.0020916742469798133,
+            0.0019250882615381843,
+            0.002055931491817745,
+            0.0030082935460147247,
+            0.003932236196516974
+          ],
+          "adjacent_mean_difference": [
+            -0.0010210439367128116,
+            2.480613962550695e-05,
+            0.005547681700898898,
+            0.013169783159195819
+          ],
+          "adjacent_simulation_SE": [
+            0.0006344031151607483,
+            0.0008937566479092532,
+            0.0016012331893874793,
+            0.0014214896258127792
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_excess": {
+          "mean": [
+            0.0048920745841088895,
+            0.0048920745841088895,
+            0.0048920745841088895,
+            0.0048920745841088895,
+            0.0048920745841088895
+          ],
+          "simulation_SE": [
+            0.0016753967491218665,
+            0.0016753967491218665,
+            0.0016753967491218665,
+            0.0016753967491218665,
+            0.0016753967491218665
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_observed_rho2": {
+          "mean": [
+            0.142884960805999,
+            0.142884960805999,
+            0.142884960805999,
+            0.142884960805999,
+            0.142884960805999
+          ],
+          "simulation_SE": [
+            0.0026067223763411845,
+            0.0026067223763411845,
+            0.0026067223763411845,
+            0.0026067223763411845,
+            0.0026067223763411845
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_surrogate_mean": {
+          "mean": [
+            0.1379928862218901,
+            0.1379928862218901,
+            0.1379928862218901,
+            0.1379928862218901,
+            0.1379928862218901
+          ],
+          "simulation_SE": [
+            0.0023593825233787077,
+            0.0023593825233787077,
+            0.0023593825233787077,
+            0.0023593825233787077,
+            0.0023593825233787077
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "alternative_oracle_excess": {
+          "mean": [
+            0.0048920745841088895,
+            0.029666411619554675,
+            0.12320104017215641,
+            0.22481209381470188,
+            0.27324697414540067
+          ],
+          "simulation_SE": [
+            0.0016753967491218665,
+            0.0036378091643338045,
+            0.006871221324332795,
+            0.00784999574512203,
+            0.008040846293528383
+          ],
+          "adjacent_mean_difference": [
+            0.024774337035445786,
+            0.09353462855260175,
+            0.10161105364254541,
+            0.04843488033069887
+          ],
+          "adjacent_simulation_SE": [
+            0.003983480565267618,
+            0.0041673266061410166,
+            0.0026130637767464203,
+            0.0019256041462843744
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "alternative_oracle_observed_rho2": {
+          "mean": [
+            0.142884960805999,
+            0.1677730581469276,
+            0.26695877916813593,
+            0.3800942293809888,
+            0.4358240156055758
+          ],
+          "simulation_SE": [
+            0.0026067223763411845,
+            0.004086738624707199,
+            0.007562890524824642,
+            0.009453734421411175,
+            0.010216326932682105
+          ],
+          "adjacent_mean_difference": [
+            0.024888097340928634,
+            0.09918572102120825,
+            0.11313545021285298,
+            0.055729786224586964
+          ],
+          "adjacent_simulation_SE": [
+            0.004220352906902446,
+            0.0051002587133543425,
+            0.0034392692774758153,
+            0.00221180298570829
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "alternative_oracle_surrogate_mean": {
+          "mean": [
+            0.1379928862218901,
+            0.13810664652737298,
+            0.14375773899597946,
+            0.155282135566287,
+            0.16257704146017513
+          ],
+          "simulation_SE": [
+            0.0023593825233787077,
+            0.0018297732170807195,
+            0.00223240780134668,
+            0.0035195372370810177,
+            0.004223301283927876
+          ],
+          "adjacent_mean_difference": [
+            0.00011376030548284483,
+            0.005651092468606516,
+            0.011524396570307545,
+            0.0072949058938881015
+          ],
+          "adjacent_simulation_SE": [
+            0.001362658269108313,
+            0.001947870358449484,
+            0.001962431597382518,
+            0.0011320936413933974
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "artifact_retention": {
+          "mean": [
+            null,
+            0.20240409655874297,
+            0.20240409655874297,
+            0.20240409655874297,
+            0.20240409655874297
+          ],
+          "simulation_SE": [
+            null,
+            0.008909628758058877,
+            0.008909628758058877,
+            0.008909628758058877,
+            0.008909628758058877
+          ],
+          "adjacent_mean_difference": [
+            null,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            null,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "defined_replicates": [
+            0,
+            16,
+            16,
+            16,
+            16
+          ],
+          "status_by_level": [
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED"
+          ],
+          "replicates": 16,
+          "scope": "All grid levels retained; artifact retention undefined when both pre/post artifact energies are zero. No invented 0/0 value."
+        }
+      }
+    },
+    {
+      "N": 197,
+      "world": "proxy_quality",
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "metrics": {
+        "delta_J": {
+          "mean": [
+            -0.0013320151161723961,
+            -0.018320091081943917,
+            -0.04253597043654953,
+            -0.07651520763861341,
+            -0.10823593906345494
+          ],
+          "simulation_SE": [
+            0.0019292657043172446,
+            0.004309590058707813,
+            0.0064762372040135276,
+            0.00836013370890208,
+            0.0068724181826597406
+          ],
+          "adjacent_mean_difference": [
+            -0.016988075965771527,
+            -0.02421587935460562,
+            -0.033979237202063875,
+            -0.03172073142484151
+          ],
+          "adjacent_simulation_SE": [
+            0.0038182334360929385,
+            0.002652125520724848,
+            0.002625167495905356,
+            0.003988250491558086
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_observed": {
+          "mean": [
+            -0.006900439762680701,
+            -0.025804558431589644,
+            -0.05204116844248218,
+            -0.08757523083470523,
+            -0.11841988266765742
+          ],
+          "simulation_SE": [
+            0.003080577858520493,
+            0.00604761759643925,
+            0.008932053506474563,
+            0.01114257124520673,
+            0.009032636492206403
+          ],
+          "adjacent_mean_difference": [
+            -0.01890411866890894,
+            -0.02623661001089253,
+            -0.035534062392223044,
+            -0.030844651832952187
+          ],
+          "adjacent_simulation_SE": [
+            0.004938452389903155,
+            0.0035697083496332303,
+            0.003106535961200507,
+            0.004934409332960221
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_reference": {
+          "mean": [
+            -0.005568424646508306,
+            -0.007484467349645722,
+            -0.009505198005932636,
+            -0.01106002319609181,
+            -0.010183943604202501
+          ],
+          "simulation_SE": [
+            0.0014320046527999915,
+            0.002326671671595032,
+            0.0030607294007099924,
+            0.0034704770782157837,
+            0.0032729161550008427
+          ],
+          "adjacent_mean_difference": [
+            -0.001916042703137416,
+            -0.002020730656286914,
+            -0.0015548251901591741,
+            0.0008760795918893076
+          ],
+          "adjacent_simulation_SE": [
+            0.0016110949727001292,
+            0.0012236165987537632,
+            0.0009200829022606234,
+            0.0015801085132297072
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "paired_reference_MCSE": {
+          "mean": [
+            0.00025850966040725945,
+            0.0004488864574150007,
+            0.000575299918453621,
+            0.0006678737103156985,
+            0.0007463735229755128
+          ],
+          "simulation_SE": [
+            1.3103663743074805e-05,
+            1.888851169099175e-05,
+            2.1942074422612476e-05,
+            2.3019396015636795e-05,
+            1.7771483555244064e-05
+          ],
+          "adjacent_mean_difference": [
+            0.0001903767970077413,
+            0.0001264134610386202,
+            9.257379186207772e-05,
+            7.849981265981418e-05
+          ],
+          "adjacent_simulation_SE": [
+            1.8720359153310303e-05,
+            8.405212237657702e-06,
+            9.081061933017656e-06,
+            1.2733711557765803e-05
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "signal_retention": {
+          "mean": [
+            0.9509266569235655,
+            0.9525334532854463,
+            0.9532874499670171,
+            0.9537358011329142,
+            0.9532667174784017
+          ],
+          "simulation_SE": [
+            0.0025180450717713675,
+            0.0026450224107249934,
+            0.0026892644408258275,
+            0.0026141386978071595,
+            0.002211833320600447
+          ],
+          "adjacent_mean_difference": [
+            0.0016067963618806441,
+            0.0007539966815709107,
+            0.00044835116589703877,
+            -0.0004690836545125296
+          ],
+          "adjacent_simulation_SE": [
+            0.0011321275699926606,
+            0.0003965377462083755,
+            0.00028935804466520196,
+            0.0008110979891198925
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_excess": {
+          "mean": [
+            0.11457374375766641,
+            0.11457374375766641,
+            0.11457374375766641,
+            0.11457374375766641,
+            0.11457374375766641
+          ],
+          "simulation_SE": [
+            0.006774509709213771,
+            0.006774509709213771,
+            0.006774509709213771,
+            0.006774509709213771,
+            0.006774509709213771
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_observed_rho2": {
+          "mean": [
+            0.24263115818879336,
+            0.24263115818879336,
+            0.24263115818879336,
+            0.24263115818879336,
+            0.24263115818879336
+          ],
+          "simulation_SE": [
+            0.008178090314392084,
+            0.008178090314392084,
+            0.008178090314392084,
+            0.008178090314392084,
+            0.008178090314392084
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_surrogate_mean": {
+          "mean": [
+            0.12805741443112698,
+            0.12805741443112698,
+            0.12805741443112698,
+            0.12805741443112698,
+            0.12805741443112698
+          ],
+          "simulation_SE": [
+            0.0024862020256372287,
+            0.0024862020256372287,
+            0.0024862020256372287,
+            0.0024862020256372287,
+            0.0024862020256372287
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_excess": {
+          "mean": [
+            0.11324172864149401,
+            0.0962536526757225,
+            0.07203777332111688,
+            0.038058536119053,
+            0.006337804694211505
+          ],
+          "simulation_SE": [
+            0.006340710717400657,
+            0.004526081821818216,
+            0.0037386114057433393,
+            0.0038681293829964836,
+            0.0011442546203211858
+          ],
+          "adjacent_mean_difference": [
+            -0.016988075965771527,
+            -0.02421587935460562,
+            -0.033979237202063875,
+            -0.031720731424841504
+          ],
+          "adjacent_simulation_SE": [
+            0.0038182334360929385,
+            0.002652125520724848,
+            0.002625167495905356,
+            0.003988250491558086
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_observed_rho2": {
+          "mean": [
+            0.23573071842611273,
+            0.21682659975720378,
+            0.1905899897463112,
+            0.15505592735408816,
+            0.12421127552113598
+          ],
+          "simulation_SE": [
+            0.007360515581392725,
+            0.004875055220500051,
+            0.00448787725530693,
+            0.0051307064692324,
+            0.0027046825793576074
+          ],
+          "adjacent_mean_difference": [
+            -0.01890411866890894,
+            -0.02623661001089253,
+            -0.035534062392223044,
+            -0.030844651832952187
+          ],
+          "adjacent_simulation_SE": [
+            0.004938452389903155,
+            0.0035697083496332303,
+            0.003106535961200507,
+            0.004934409332960221
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_surrogate_mean": {
+          "mean": [
+            0.12248898978461865,
+            0.12057294708148125,
+            0.11855221642519433,
+            0.11699739123503516,
+            0.11787347082692448
+          ],
+          "simulation_SE": [
+            0.002255943479697891,
+            0.0015637051235983142,
+            0.0017113881822654249,
+            0.0020264795712171563,
+            0.0021237561205889096
+          ],
+          "adjacent_mean_difference": [
+            -0.001916042703137416,
+            -0.002020730656286914,
+            -0.0015548251901591741,
+            0.0008760795918893076
+          ],
+          "adjacent_simulation_SE": [
+            0.0016110949727001292,
+            0.0012236165987537632,
+            0.0009200829022606234,
+            0.0015801085132297072
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_excess": {
+          "mean": [
+            0.0048920745841088895,
+            0.0048920745841088895,
+            0.0048920745841088895,
+            0.0048920745841088895,
+            0.0048920745841088895
+          ],
+          "simulation_SE": [
+            0.0016753967491218665,
+            0.0016753967491218665,
+            0.0016753967491218665,
+            0.0016753967491218665,
+            0.0016753967491218665
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_observed_rho2": {
+          "mean": [
+            0.142884960805999,
+            0.142884960805999,
+            0.142884960805999,
+            0.142884960805999,
+            0.142884960805999
+          ],
+          "simulation_SE": [
+            0.0026067223763411845,
+            0.0026067223763411845,
+            0.0026067223763411845,
+            0.0026067223763411845,
+            0.0026067223763411845
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_surrogate_mean": {
+          "mean": [
+            0.1379928862218901,
+            0.1379928862218901,
+            0.1379928862218901,
+            0.1379928862218901,
+            0.1379928862218901
+          ],
+          "simulation_SE": [
+            0.0023593825233787077,
+            0.0023593825233787077,
+            0.0023593825233787077,
+            0.0023593825233787077,
+            0.0023593825233787077
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "artifact_retention": {
+          "mean": [
+            0.9571590255989777,
+            0.7301259251679894,
+            0.49574304904312594,
+            0.25218267494631785,
+            2.3779936548391324e-30
+          ],
+          "simulation_SE": [
+            0.004467189990042619,
+            0.019703059630840045,
+            0.018466688559846643,
+            0.010907206801774457,
+            1.744176326016449e-31
+          ],
+          "adjacent_mean_difference": [
+            -0.22703310043098837,
+            -0.23438287612486336,
+            -0.24356037409680814,
+            -0.25218267494631785
+          ],
+          "adjacent_simulation_SE": [
+            0.019778977681988726,
+            0.0042069014581844625,
+            0.008298200852501107,
+            0.010907206801774457
+          ],
+          "defined_replicates": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "status_by_level": [
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED"
+          ],
+          "replicates": 16,
+          "scope": "All grid levels retained; artifact retention undefined when both pre/post artifact energies are zero. No invented 0/0 value."
+        }
+      }
+    },
+    {
+      "N": 197,
+      "world": "latent_sharing",
+      "levels": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "metrics": {
+        "delta_J": {
+          "mean": [
+            -0.08416581998321117,
+            -0.0758590138464395,
+            -0.059260139220714214,
+            -0.04113604408861618,
+            -0.02311009978484578
+          ],
+          "simulation_SE": [
+            0.008557213711356829,
+            0.007709421847926426,
+            0.007833858293194709,
+            0.008046342612334346,
+            0.008033287038183998
+          ],
+          "adjacent_mean_difference": [
+            0.008306806136771643,
+            0.016598874625725304,
+            0.018124095132098027,
+            0.018025944303770407
+          ],
+          "adjacent_simulation_SE": [
+            0.004350460211888611,
+            0.002233996884264023,
+            0.0014038223622516444,
+            0.0011208679777833948
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_observed": {
+          "mean": [
+            -0.09536450761513873,
+            -0.09029309787262291,
+            -0.07553052085708743,
+            -0.0581998924323338,
+            -0.0400041819704508
+          ],
+          "simulation_SE": [
+            0.011314738423168125,
+            0.011202956605696006,
+            0.011946588388239764,
+            0.012579213091964286,
+            0.012868093338008667
+          ],
+          "adjacent_mean_difference": [
+            0.005071409742515836,
+            0.014762577015535482,
+            0.017330628424753608,
+            0.018195710461883004
+          ],
+          "adjacent_simulation_SE": [
+            0.006411152038277059,
+            0.0030073120867956382,
+            0.0018332940431433412,
+            0.0013413621820047403
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_reference": {
+          "mean": [
+            -0.011198687631927579,
+            -0.014434084026183389,
+            -0.016270381636373205,
+            -0.017063848343717623,
+            -0.016894082185605033
+          ],
+          "simulation_SE": [
+            0.0034925786744090625,
+            0.004244689449945921,
+            0.0046676623460872564,
+            0.005055210760619418,
+            0.00541923970946042
+          ],
+          "adjacent_mean_difference": [
+            -0.0032353963942558057,
+            -0.001836297610189822,
+            -0.000793466707344417,
+            0.0001697661581125942
+          ],
+          "adjacent_simulation_SE": [
+            0.0023730159522288075,
+            0.0011222624596306657,
+            0.0009389824554488451,
+            0.0008662129865629869
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "paired_reference_MCSE": {
+          "mean": [
+            0.0006841264969096868,
+            0.0007097565503712545,
+            0.0007206263102479667,
+            0.0007320229456531176,
+            0.0007468517392390216
+          ],
+          "simulation_SE": [
+            2.272087846928051e-05,
+            2.4091322411083607e-05,
+            2.5774095664133605e-05,
+            2.720731007873408e-05,
+            2.8225192890909993e-05
+          ],
+          "adjacent_mean_difference": [
+            2.563005346156773e-05,
+            1.086975987671224e-05,
+            1.1396635405150978e-05,
+            1.48287935859038e-05
+          ],
+          "adjacent_simulation_SE": [
+            9.099936682298886e-06,
+            8.85906733228798e-06,
+            8.617483492810562e-06,
+            1.1185336526649961e-05
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "signal_retention": {
+          "mean": [
+            0.9537788564924615,
+            0.9524166059717138,
+            0.949428561114412,
+            0.9460701707922149,
+            0.9423842595470311
+          ],
+          "simulation_SE": [
+            0.0025789671407076328,
+            0.0036674586289349507,
+            0.005054991746019049,
+            0.006544749830357272,
+            0.008012749016923837
+          ],
+          "adjacent_mean_difference": [
+            -0.0013622505207477736,
+            -0.002988044857301808,
+            -0.0033583903221969455,
+            -0.0036859112451839288
+          ],
+          "adjacent_simulation_SE": [
+            0.002640694947671959,
+            0.0019441860917180803,
+            0.0018142491700725938,
+            0.0017274725451463528
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_excess": {
+          "mean": [
+            0.11457374375766641,
+            0.1475657750250532,
+            0.1790777803133785,
+            0.2098627389306762,
+            0.24021512258004107
+          ],
+          "simulation_SE": [
+            0.006774509709213771,
+            0.0060824521444198506,
+            0.005915426834752103,
+            0.005850486709578824,
+            0.005812278762983931
+          ],
+          "adjacent_mean_difference": [
+            0.03299203126738676,
+            0.0315120052883253,
+            0.03078495861729773,
+            0.030352383649364885
+          ],
+          "adjacent_simulation_SE": [
+            0.0033249544499057244,
+            0.0015702033513507311,
+            0.0014312995764228116,
+            0.001449043582561966
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_observed_rho2": {
+          "mean": [
+            0.24263115818879336,
+            0.2806268229641784,
+            0.31718702348929534,
+            0.3530739256142013,
+            0.3885219206418109
+          ],
+          "simulation_SE": [
+            0.008178090314392084,
+            0.008095426536063191,
+            0.008288026955523773,
+            0.008527840992006536,
+            0.008719150922134938
+          ],
+          "adjacent_mean_difference": [
+            0.03799566477538499,
+            0.03656020052511694,
+            0.035886902124906,
+            0.03544799502760957
+          ],
+          "adjacent_simulation_SE": [
+            0.004420423472589177,
+            0.0021262889112151993,
+            0.0018395180456371079,
+            0.001758639212331787
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_surrogate_mean": {
+          "mean": [
+            0.12805741443112698,
+            0.1330610479391252,
+            0.13810924317591686,
+            0.14321118668352512,
+            0.14830679806176977
+          ],
+          "simulation_SE": [
+            0.0024862020256372287,
+            0.003371209075157688,
+            0.003649996207968558,
+            0.0038748867195890825,
+            0.004109330466507357
+          ],
+          "adjacent_mean_difference": [
+            0.005003633507998232,
+            0.005048195236791633,
+            0.005101943507608258,
+            0.0050956113782446915
+          ],
+          "adjacent_simulation_SE": [
+            0.0015455396514909197,
+            0.0007847123186553143,
+            0.0007015859377883153,
+            0.0006945404283332305
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_excess": {
+          "mean": [
+            0.03040792377445527,
+            0.07170676117861366,
+            0.11981764109266428,
+            0.16872669484206004,
+            0.21710502279519536
+          ],
+          "simulation_SE": [
+            0.0037863074521813406,
+            0.005197969903711766,
+            0.0066170362097704135,
+            0.007435250112257462,
+            0.007816146701915732
+          ],
+          "adjacent_mean_difference": [
+            0.0412988374041584,
+            0.04811087991405061,
+            0.04890905374939576,
+            0.04837832795313528
+          ],
+          "adjacent_simulation_SE": [
+            0.004224110590101129,
+            0.0022263993235643446,
+            0.0014382653555789606,
+            0.0012953627053549591
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_observed_rho2": {
+          "mean": [
+            0.14726665057365468,
+            0.1903337250915555,
+            0.2416565026322079,
+            0.2948740331818675,
+            0.3485177386713601
+          ],
+          "simulation_SE": [
+            0.005044499038166918,
+            0.006805618329107756,
+            0.008896500785275015,
+            0.01037217374814198,
+            0.011240597555154257
+          ],
+          "adjacent_mean_difference": [
+            0.04306707451790083,
+            0.051322777540652426,
+            0.05321753054965961,
+            0.05364370548949257
+          ],
+          "adjacent_simulation_SE": [
+            0.0054142233172682925,
+            0.003201076142760952,
+            0.0021302095533185608,
+            0.0016796791943021355
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_surrogate_mean": {
+          "mean": [
+            0.11685872679919938,
+            0.11862696391294182,
+            0.12183886153954362,
+            0.12614733833980749,
+            0.13141271587616474
+          ],
+          "simulation_SE": [
+            0.002055931491817745,
+            0.002087339618298356,
+            0.0026991570847472368,
+            0.003394362767670958,
+            0.003970841966651105
+          ],
+          "adjacent_mean_difference": [
+            0.0017682371137424267,
+            0.0032118976266018113,
+            0.004308476800263841,
+            0.005265377536357286
+          ],
+          "adjacent_simulation_SE": [
+            0.001440033438714623,
+            0.00112514532528516,
+            0.0009353927740717604,
+            0.0007647900834931409
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_excess": {
+          "mean": [
+            0.0048920745841088895,
+            0.03671544343646434,
+            0.10584223507821373,
+            0.1760617297670644,
+            0.24482271734025715
+          ],
+          "simulation_SE": [
+            0.0016753967491218665,
+            0.004129955888174535,
+            0.006128654419546473,
+            0.007411018380142129,
+            0.008264194477003326
+          ],
+          "adjacent_mean_difference": [
+            0.03182336885235545,
+            0.06912679164174942,
+            0.07021949468885066,
+            0.06876098757319277
+          ],
+          "adjacent_simulation_SE": [
+            0.004794373445625923,
+            0.0026647147027739327,
+            0.0018529542099914762,
+            0.0017978014038008635
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_observed_rho2": {
+          "mean": [
+            0.142884960805999,
+            0.17677078260346546,
+            0.2506666687158816,
+            0.3281822051866691,
+            0.4055878469714608
+          ],
+          "simulation_SE": [
+            0.0026067223763411845,
+            0.005765416528344313,
+            0.008308484669317875,
+            0.010141108185178048,
+            0.01145559058556019
+          ],
+          "adjacent_mean_difference": [
+            0.03388582179746645,
+            0.07389588611241618,
+            0.07751553647078746,
+            0.07740564178479171
+          ],
+          "adjacent_simulation_SE": [
+            0.005921286419611834,
+            0.003548570500438279,
+            0.0027440764777390764,
+            0.0025487447277443673
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_surrogate_mean": {
+          "mean": [
+            0.1379928862218901,
+            0.1400553391670011,
+            0.1448244336376679,
+            0.15212047541960466,
+            0.16076512963120362
+          ],
+          "simulation_SE": [
+            0.0023593825233787077,
+            0.00270452559432705,
+            0.003144417461913253,
+            0.0036820442879969663,
+            0.004319914045264692
+          ],
+          "adjacent_mean_difference": [
+            0.0020624529451109984,
+            0.0047690944706667675,
+            0.007296041781936776,
+            0.008644654211598962
+          ],
+          "adjacent_simulation_SE": [
+            0.0016124284226210943,
+            0.0012975230503071953,
+            0.0013187327477011985,
+            0.0012783619063038891
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "artifact_retention": {
+          "mean": [
+            0.20240409655874297,
+            0.20240409655874297,
+            0.20240409655874297,
+            0.20240409655874297,
+            0.20240409655874297
+          ],
+          "simulation_SE": [
+            0.008909628758058877,
+            0.008909628758058877,
+            0.008909628758058877,
+            0.008909628758058877,
+            0.008909628758058877
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "defined_replicates": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "status_by_level": [
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED"
+          ],
+          "replicates": 16,
+          "scope": "All grid levels retained; artifact retention undefined when both pre/post artifact energies are zero. No invented 0/0 value."
+        }
+      }
+    },
+    {
+      "N": 197,
+      "world": "proxy_contamination",
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0,
+        4.0
+      ],
+      "metrics": {
+        "delta_J": {
+          "mean": [
+            -0.07201575398559776,
+            -0.11310212140917156,
+            -0.10528400886799767,
+            -0.0714200859200031,
+            -0.04616019467803964
+          ],
+          "simulation_SE": [
+            0.007698732170038472,
+            0.008043896279205095,
+            0.007106860433175448,
+            0.006436934888587199,
+            0.005916871292866237
+          ],
+          "adjacent_mean_difference": [
+            -0.04108636742357381,
+            0.007818112541173903,
+            0.03386392294799456,
+            0.02525989124196346
+          ],
+          "adjacent_simulation_SE": [
+            0.00427618051255789,
+            0.0033796548135957565,
+            0.0043591631028000125,
+            0.002357034692801005
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_observed": {
+          "mean": [
+            -0.08700313695358194,
+            -0.13013603090013642,
+            -0.12154726734634172,
+            -0.08573781511074559,
+            -0.05913176360848196
+          ],
+          "simulation_SE": [
+            0.011372508497816652,
+            0.011484289484931059,
+            0.010077111821703517,
+            0.009292339512319501,
+            0.008479916493979422
+          ],
+          "adjacent_mean_difference": [
+            -0.043132893946554514,
+            0.008588763553794728,
+            0.03580945223559611,
+            0.026606051502263632
+          ],
+          "adjacent_simulation_SE": [
+            0.00573218814019565,
+            0.004216955989181264,
+            0.0057121705580182895,
+            0.0028837677659896807
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_reference": {
+          "mean": [
+            -0.014987382967984157,
+            -0.017033909490964862,
+            -0.016263258478344034,
+            -0.014317729190742493,
+            -0.012971568930442316
+          ],
+          "simulation_SE": [
+            0.004359197905229196,
+            0.004384871737781816,
+            0.0038541545886661317,
+            0.003522679266056847,
+            0.0031298118724499367
+          ],
+          "adjacent_mean_difference": [
+            -0.002046526522980702,
+            0.0007706510126208261,
+            0.001945529287601543,
+            0.0013461602603001745
+          ],
+          "adjacent_simulation_SE": [
+            0.0016759976036876617,
+            0.0010335881886391028,
+            0.0014726151249824238,
+            0.0008293922603903704
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "paired_reference_MCSE": {
+          "mean": [
+            0.0007127031582974054,
+            0.0008054110957212657,
+            0.0007922376574638963,
+            0.0007352705003884774,
+            0.0006515581451020625
+          ],
+          "simulation_SE": [
+            2.4339823189937865e-05,
+            2.682128662542842e-05,
+            2.486386532980084e-05,
+            2.1681815375444027e-05,
+            2.0074233897233983e-05
+          ],
+          "adjacent_mean_difference": [
+            9.270793742386038e-05,
+            -1.3173438257369655e-05,
+            -5.696715707541862e-05,
+            -8.371235528641506e-05
+          ],
+          "adjacent_simulation_SE": [
+            1.2022652815456241e-05,
+            6.4802424281180726e-06,
+            6.724030284785634e-06,
+            5.6066771826999775e-06
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "signal_retention": {
+          "mean": [
+            0.9517178989753515,
+            0.9063213561654754,
+            0.8363417522058048,
+            0.761078390724059,
+            0.7230673977120132
+          ],
+          "simulation_SE": [
+            0.003993764295469267,
+            0.005574350710825409,
+            0.006663200734540599,
+            0.00786972290147028,
+            0.007867663417374283
+          ],
+          "adjacent_mean_difference": [
+            -0.045396542809876206,
+            -0.0699796039596706,
+            -0.07526336148174567,
+            -0.03801099301204593
+          ],
+          "adjacent_simulation_SE": [
+            0.0037938393024161622,
+            0.0038098712130042603,
+            0.0030656393267505543,
+            0.0012474843814804266
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_excess": {
+          "mean": [
+            0.1555318539309193,
+            0.1555318539309193,
+            0.1555318539309193,
+            0.1555318539309193,
+            0.1555318539309193
+          ],
+          "simulation_SE": [
+            0.006026434393683952,
+            0.006026434393683952,
+            0.006026434393683952,
+            0.006026434393683952,
+            0.006026434393683952
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_observed_rho2": {
+          "mean": [
+            0.28984521411832986,
+            0.28984521411832986,
+            0.28984521411832986,
+            0.28984521411832986,
+            0.28984521411832986
+          ],
+          "simulation_SE": [
+            0.008134591350843419,
+            0.008134591350843419,
+            0.008134591350843419,
+            0.008134591350843419,
+            0.008134591350843419
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_surrogate_mean": {
+          "mean": [
+            0.1343133601874105,
+            0.1343133601874105,
+            0.1343133601874105,
+            0.1343133601874105,
+            0.1343133601874105
+          ],
+          "simulation_SE": [
+            0.0034529196574534307,
+            0.0034529196574534307,
+            0.0034529196574534307,
+            0.0034529196574534307,
+            0.0034529196574534307
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_excess": {
+          "mean": [
+            0.08351609994532157,
+            0.042429732521747754,
+            0.050247845062921646,
+            0.08411176801091624,
+            0.1093716592528797
+          ],
+          "simulation_SE": [
+            0.005605855383356258,
+            0.0045212988579792545,
+            0.004060630162218036,
+            0.005650833974302143,
+            0.006670545538249326
+          ],
+          "adjacent_mean_difference": [
+            -0.04108636742357381,
+            0.007818112541173903,
+            0.03386392294799456,
+            0.02525989124196346
+          ],
+          "adjacent_simulation_SE": [
+            0.004276180512557891,
+            0.0033796548135957565,
+            0.004359163102800013,
+            0.002357034692801005
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_observed_rho2": {
+          "mean": [
+            0.20284207716474792,
+            0.1597091832181934,
+            0.16829794677198817,
+            0.20410739900758426,
+            0.23071345050984787
+          ],
+          "simulation_SE": [
+            0.007365981652497336,
+            0.0063472027458873394,
+            0.004947129115003807,
+            0.0064622129810227025,
+            0.007671294199121762
+          ],
+          "adjacent_mean_difference": [
+            -0.043132893946554514,
+            0.008588763553794728,
+            0.03580945223559611,
+            0.026606051502263632
+          ],
+          "adjacent_simulation_SE": [
+            0.00573218814019565,
+            0.004216955989181264,
+            0.0057121705580182895,
+            0.0028837677659896807
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_surrogate_mean": {
+          "mean": [
+            0.11932597721942637,
+            0.11727945069644567,
+            0.11805010170906649,
+            0.11999563099666805,
+            0.12134179125696819
+          ],
+          "simulation_SE": [
+            0.0022114192193917193,
+            0.0023441749250158322,
+            0.0017709089435669855,
+            0.001437463301797009,
+            0.0014872438892860565
+          ],
+          "adjacent_mean_difference": [
+            -0.002046526522980702,
+            0.0007706510126208261,
+            0.001945529287601543,
+            0.0013461602603001745
+          ],
+          "adjacent_simulation_SE": [
+            0.0016759976036876617,
+            0.0010335881886391028,
+            0.0014726151249824238,
+            0.0008293922603903704
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_excess": {
+          "mean": [
+            0.05323958785042633,
+            0.05323958785042633,
+            0.05323958785042633,
+            0.05323958785042633,
+            0.05323958785042633
+          ],
+          "simulation_SE": [
+            0.004739251509727709,
+            0.004739251509727709,
+            0.004739251509727709,
+            0.004739251509727709,
+            0.004739251509727709
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_observed_rho2": {
+          "mean": [
+            0.19420945913991042,
+            0.19420945913991042,
+            0.19420945913991042,
+            0.19420945913991042,
+            0.19420945913991042
+          ],
+          "simulation_SE": [
+            0.006498433053713827,
+            0.006498433053713827,
+            0.006498433053713827,
+            0.006498433053713827,
+            0.006498433053713827
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_surrogate_mean": {
+          "mean": [
+            0.14096987128948413,
+            0.14096987128948413,
+            0.14096987128948413,
+            0.14096987128948413,
+            0.14096987128948413
+          ],
+          "simulation_SE": [
+            0.002803248233760962,
+            0.002803248233760962,
+            0.002803248233760962,
+            0.002803248233760962,
+            0.002803248233760962
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "artifact_retention": {
+          "mean": [
+            0.20240409655874297,
+            0.3347340688538461,
+            0.5457480527132581,
+            0.775894259535691,
+            0.8956786121142427
+          ],
+          "simulation_SE": [
+            0.008909628758058877,
+            0.01456899512578744,
+            0.021629008992004716,
+            0.022874031643984563,
+            0.017596249145428993
+          ],
+          "adjacent_mean_difference": [
+            0.13232997229510315,
+            0.2110139838594119,
+            0.23014620682243292,
+            0.11978435257855172
+          ],
+          "adjacent_simulation_SE": [
+            0.010142025361182245,
+            0.009244957227066933,
+            0.005841680401986409,
+            0.006870358856272871
+          ],
+          "defined_replicates": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "status_by_level": [
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED"
+          ],
+          "replicates": 16,
+          "scope": "All grid levels retained; artifact retention undefined when both pre/post artifact energies are zero. No invented 0/0 value."
+        }
+      }
+    },
+    {
+      "N": 788,
+      "world": "null",
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "metrics": {
+        "delta_J": {
+          "mean": [
+            0.0003697928896246065,
+            0.0003697928896246065,
+            0.0003697928896246065,
+            0.0003697928896246065,
+            0.0003697928896246065
+          ],
+          "simulation_SE": [
+            0.0002395839322078881,
+            0.0002395839322078881,
+            0.0002395839322078881,
+            0.0002395839322078881,
+            0.0002395839322078881
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_observed": {
+          "mean": [
+            -0.0008945856593659028,
+            -0.0008945856593659028,
+            -0.0008945856593659028,
+            -0.0008945856593659028,
+            -0.0008945856593659028
+          ],
+          "simulation_SE": [
+            0.00020902635355656072,
+            0.00020902635355656072,
+            0.00020902635355656072,
+            0.00020902635355656072,
+            0.00020902635355656072
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_reference": {
+          "mean": [
+            -0.0012643785489905093,
+            -0.0012643785489905093,
+            -0.0012643785489905093,
+            -0.0012643785489905093,
+            -0.0012643785489905093
+          ],
+          "simulation_SE": [
+            0.000168491849668791,
+            0.000168491849668791,
+            0.000168491849668791,
+            0.000168491849668791,
+            0.000168491849668791
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "paired_reference_MCSE": {
+          "mean": [
+            6.305464565073757e-05,
+            6.305464565073757e-05,
+            6.305464565073757e-05,
+            6.305464565073757e-05,
+            6.305464565073757e-05
+          ],
+          "simulation_SE": [
+            1.6459946376971955e-06,
+            1.6459946376971955e-06,
+            1.6459946376971955e-06,
+            1.6459946376971955e-06,
+            1.6459946376971955e-06
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "signal_retention": {
+          "mean": [
+            0.9890273860045191,
+            0.9890273860045191,
+            0.9890273860045191,
+            0.9890273860045191,
+            0.9890273860045191
+          ],
+          "simulation_SE": [
+            0.0005489161219742377,
+            0.0005489161219742377,
+            0.0005489161219742377,
+            0.0005489161219742377,
+            0.0005489161219742377
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_excess": {
+          "mean": [
+            -4.578537445877433e-05,
+            -4.578537445877433e-05,
+            -4.578537445877433e-05,
+            -4.578537445877433e-05,
+            -4.578537445877433e-05
+          ],
+          "simulation_SE": [
+            0.0010573138020096287,
+            0.0010573138020096287,
+            0.0010573138020096287,
+            0.0010573138020096287,
+            0.0010573138020096287
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_observed_rho2": {
+          "mean": [
+            0.09997189960530631,
+            0.09997189960530631,
+            0.09997189960530631,
+            0.09997189960530631,
+            0.09997189960530631
+          ],
+          "simulation_SE": [
+            0.0010229393012873228,
+            0.0010229393012873228,
+            0.0010229393012873228,
+            0.0010229393012873228,
+            0.0010229393012873228
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_surrogate_mean": {
+          "mean": [
+            0.10001768497976507,
+            0.10001768497976507,
+            0.10001768497976507,
+            0.10001768497976507,
+            0.10001768497976507
+          ],
+          "simulation_SE": [
+            0.0008276016420883581,
+            0.0008276016420883581,
+            0.0008276016420883581,
+            0.0008276016420883581,
+            0.0008276016420883581
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_excess": {
+          "mean": [
+            0.00032400751516583216,
+            0.00032400751516583216,
+            0.00032400751516583216,
+            0.00032400751516583216,
+            0.00032400751516583216
+          ],
+          "simulation_SE": [
+            0.0009864936507449802,
+            0.0009864936507449802,
+            0.0009864936507449802,
+            0.0009864936507449802,
+            0.0009864936507449802
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_observed_rho2": {
+          "mean": [
+            0.09907731394594041,
+            0.09907731394594041,
+            0.09907731394594041,
+            0.09907731394594041,
+            0.09907731394594041
+          ],
+          "simulation_SE": [
+            0.0009848122792929096,
+            0.0009848122792929096,
+            0.0009848122792929096,
+            0.0009848122792929096,
+            0.0009848122792929096
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_surrogate_mean": {
+          "mean": [
+            0.09875330643077457,
+            0.09875330643077457,
+            0.09875330643077457,
+            0.09875330643077457,
+            0.09875330643077457
+          ],
+          "simulation_SE": [
+            0.0007629439257525714,
+            0.0007629439257525714,
+            0.0007629439257525714,
+            0.0007629439257525714,
+            0.0007629439257525714
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_excess": {
+          "mean": [
+            -0.0002701403874094026,
+            -0.0002701403874094026,
+            -0.0002701403874094026,
+            -0.0002701403874094026,
+            -0.0002701403874094026
+          ],
+          "simulation_SE": [
+            0.0009225206720391728,
+            0.0009225206720391728,
+            0.0009225206720391728,
+            0.0009225206720391728,
+            0.0009225206720391728
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_observed_rho2": {
+          "mean": [
+            0.1024689013917736,
+            0.1024689013917736,
+            0.1024689013917736,
+            0.1024689013917736,
+            0.1024689013917736
+          ],
+          "simulation_SE": [
+            0.0011190218217881005,
+            0.0011190218217881005,
+            0.0011190218217881005,
+            0.0011190218217881005,
+            0.0011190218217881005
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_surrogate_mean": {
+          "mean": [
+            0.10273904177918303,
+            0.10273904177918303,
+            0.10273904177918303,
+            0.10273904177918303,
+            0.10273904177918303
+          ],
+          "simulation_SE": [
+            0.0008691774243815098,
+            0.0008691774243815098,
+            0.0008691774243815098,
+            0.0008691774243815098,
+            0.0008691774243815098
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "artifact_retention": {
+          "mean": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "simulation_SE": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "adjacent_mean_difference": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "adjacent_simulation_SE": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "defined_replicates": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "status_by_level": [
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY",
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY",
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY",
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY",
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY"
+          ],
+          "replicates": 16,
+          "scope": "All grid levels retained; artifact retention undefined when both pre/post artifact energies are zero. No invented 0/0 value."
+        }
+      }
+    },
+    {
+      "N": 788,
+      "world": "observation_amplitude",
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0,
+        4.0
+      ],
+      "metrics": {
+        "delta_J": {
+          "mean": [
+            0.0003654873846851434,
+            -0.04842551430417219,
+            -0.1298277032597879,
+            -0.13940247292411806,
+            -0.0739710952690535
+          ],
+          "simulation_SE": [
+            0.00023011864290255565,
+            0.003037567003499066,
+            0.004626210281552502,
+            0.005246978447578927,
+            0.005099257235404326
+          ],
+          "adjacent_mean_difference": [
+            -0.04879100168885733,
+            -0.0814021889556157,
+            -0.009574769664330152,
+            0.06543137765506453
+          ],
+          "adjacent_simulation_SE": [
+            0.0029794766461427916,
+            0.002474350452905031,
+            0.0017000461676394275,
+            0.0015080207013682748
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_observed": {
+          "mean": [
+            -0.0008241779218180157,
+            -0.05047998092682999,
+            -0.13503041979709418,
+            -0.1477124467490084,
+            -0.0797041255185653
+          ],
+          "simulation_SE": [
+            0.00018282547973155349,
+            0.0035313427991925696,
+            0.005813288232936732,
+            0.0070588257641871184,
+            0.007291291590630593
+          ],
+          "adjacent_mean_difference": [
+            -0.04965580300501196,
+            -0.08455043887026423,
+            -0.012682026951914211,
+            0.0680083212304431
+          ],
+          "adjacent_simulation_SE": [
+            0.003493632514144328,
+            0.0029831792299821473,
+            0.0022896982963338942,
+            0.0019391335128070106
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_reference": {
+          "mean": [
+            -0.0011896653065031591,
+            -0.0020544666226578,
+            -0.005202716537306313,
+            -0.008309973824890371,
+            -0.005733030249511794
+          ],
+          "simulation_SE": [
+            0.00013824078025981846,
+            0.0007163980266542664,
+            0.001359537076537245,
+            0.0020074504836971093,
+            0.0024869411781591384
+          ],
+          "adjacent_mean_difference": [
+            -0.0008648013161546408,
+            -0.003148249914648513,
+            -0.0031072572875840586,
+            0.002576943575378577
+          ],
+          "adjacent_simulation_SE": [
+            0.0007404381871220447,
+            0.0007301576663891928,
+            0.0008447955526183022,
+            0.0007955962571822112
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "paired_reference_MCSE": {
+          "mean": [
+            6.282622945098584e-05,
+            0.0002320028925992824,
+            0.0003492973809524019,
+            0.0004403202462448101,
+            0.0004979244376127274
+          ],
+          "simulation_SE": [
+            1.600065236578861e-06,
+            5.121840776594981e-06,
+            6.642642269744429e-06,
+            1.148244173869416e-05,
+            1.6867721102756493e-05
+          ],
+          "adjacent_mean_difference": [
+            0.00016917666314829652,
+            0.00011729448835311941,
+            9.102286529240836e-05,
+            5.7604191367917206e-05
+          ],
+          "adjacent_simulation_SE": [
+            5.44226472940411e-06,
+            3.060055312399872e-06,
+            7.541035129567329e-06,
+            6.796999761320993e-06
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "signal_retention": {
+          "mean": [
+            0.9892803995658231,
+            0.9892803995658231,
+            0.9892803995658231,
+            0.9892803995658231,
+            0.9892803995658231
+          ],
+          "simulation_SE": [
+            0.0005460132418757988,
+            0.0005460132418757988,
+            0.0005460132418757988,
+            0.0005460132418757988,
+            0.0005460132418757988
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_excess": {
+          "mean": [
+            -4.578537445877433e-05,
+            0.05108317490337554,
+            0.16569140013218916,
+            0.2776691705978853,
+            0.32926627304073464
+          ],
+          "simulation_SE": [
+            0.0010573138020096287,
+            0.00312349027253025,
+            0.004414889760178356,
+            0.004655475038106116,
+            0.0045299529111550605
+          ],
+          "adjacent_mean_difference": [
+            0.05112896027783431,
+            0.11460822522881363,
+            0.11197777046569608,
+            0.05159710244284932
+          ],
+          "adjacent_simulation_SE": [
+            0.0031506557816295237,
+            0.0017618369992893597,
+            0.0014741111825810344,
+            0.0009840923385218267
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_observed_rho2": {
+          "mean": [
+            0.09997189960530631,
+            0.15153224488041983,
+            0.2693343045725028,
+            0.38693252537068323,
+            0.4417915203145374
+          ],
+          "simulation_SE": [
+            0.0010229393012873228,
+            0.003521563369105488,
+            0.005526446626678331,
+            0.006333433297190322,
+            0.0063826845184708075
+          ],
+          "adjacent_mean_difference": [
+            0.05156034527511354,
+            0.11780205969208296,
+            0.11759822079818036,
+            0.05485899494385417
+          ],
+          "adjacent_simulation_SE": [
+            0.003599208400562751,
+            0.0024423306807588793,
+            0.0018021037630127808,
+            0.001102141314034088
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_surrogate_mean": {
+          "mean": [
+            0.10001768497976507,
+            0.1004490699770443,
+            0.10364290444031363,
+            0.1092633547727979,
+            0.11252524727380275
+          ],
+          "simulation_SE": [
+            0.0008276016420883581,
+            0.0011636931503633283,
+            0.001566064973588422,
+            0.0019805303589179525,
+            0.002156324324507283
+          ],
+          "adjacent_mean_difference": [
+            0.0004313849972792218,
+            0.003193834463269326,
+            0.005620450332484275,
+            0.00326189250100484
+          ],
+          "adjacent_simulation_SE": [
+            0.0007457450982511303,
+            0.0007893047968560733,
+            0.0007235447144373214,
+            0.00037754293212239134
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_excess": {
+          "mean": [
+            0.00031970201022636906,
+            0.002657660599203357,
+            0.035863696872401284,
+            0.1382666976737672,
+            0.2552951777716811
+          ],
+          "simulation_SE": [
+            0.0010030202421882457,
+            0.0013807398300999202,
+            0.0028622494101115006,
+            0.0036267362790684127,
+            0.004116241447135264
+          ],
+          "adjacent_mean_difference": [
+            0.002337958588976988,
+            0.03320603627319794,
+            0.10240300080136591,
+            0.11702848009791382
+          ],
+          "adjacent_simulation_SE": [
+            0.0009069489056363111,
+            0.0018956403297602966,
+            0.0012140830916141762,
+            0.0016021220137858883
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_observed_rho2": {
+          "mean": [
+            0.09914772168348829,
+            0.10105226395358985,
+            0.13430388477540864,
+            0.23922007862167471,
+            0.3620873947959721
+          ],
+          "simulation_SE": [
+            0.0009859671563666173,
+            0.001288808526195935,
+            0.002846444994072443,
+            0.004258445069808423,
+            0.005439857415284279
+          ],
+          "adjacent_mean_difference": [
+            0.001904542270101569,
+            0.03325162082181875,
+            0.10491619384626615,
+            0.12286731617429728
+          ],
+          "adjacent_simulation_SE": [
+            0.0009674602199771202,
+            0.0021748258730519407,
+            0.0018718040661578914,
+            0.0021243233780878674
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_surrogate_mean": {
+          "mean": [
+            0.09882801967326192,
+            0.09839460335438649,
+            0.0984401879030073,
+            0.10095338094790757,
+            0.10679221702429094
+          ],
+          "simulation_SE": [
+            0.0007740459101698544,
+            0.000643609614677612,
+            0.0005285670112076355,
+            0.0009459292400485873,
+            0.0016828065711737116
+          ],
+          "adjacent_mean_difference": [
+            -0.00043341631887541896,
+            4.5584548620813264e-05,
+            0.0025131930449002167,
+            0.005838836076383417
+          ],
+          "adjacent_simulation_SE": [
+            0.00024100090875660678,
+            0.0003550884254545996,
+            0.0008050517144159197,
+            0.0008692560067322786
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_excess": {
+          "mean": [
+            -0.0002701403874094026,
+            -0.0002701403874094026,
+            -0.0002701403874094026,
+            -0.0002701403874094026,
+            -0.0002701403874094026
+          ],
+          "simulation_SE": [
+            0.0009225206720391728,
+            0.0009225206720391728,
+            0.0009225206720391728,
+            0.0009225206720391728,
+            0.0009225206720391728
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_observed_rho2": {
+          "mean": [
+            0.1024689013917736,
+            0.1024689013917736,
+            0.1024689013917736,
+            0.1024689013917736,
+            0.1024689013917736
+          ],
+          "simulation_SE": [
+            0.0011190218217881005,
+            0.0011190218217881005,
+            0.0011190218217881005,
+            0.0011190218217881005,
+            0.0011190218217881005
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_surrogate_mean": {
+          "mean": [
+            0.10273904177918303,
+            0.10273904177918303,
+            0.10273904177918303,
+            0.10273904177918303,
+            0.10273904177918303
+          ],
+          "simulation_SE": [
+            0.0008691774243815098,
+            0.0008691774243815098,
+            0.0008691774243815098,
+            0.0008691774243815098,
+            0.0008691774243815098
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "alternative_oracle_excess": {
+          "mean": [
+            -0.0002701403874094026,
+            0.052910008306976855,
+            0.17082782415389364,
+            0.2853005434455567,
+            0.33782500942834287
+          ],
+          "simulation_SE": [
+            0.0009225206720391728,
+            0.002912596697957902,
+            0.004070646794387581,
+            0.004374884109495109,
+            0.004386460923914973
+          ],
+          "adjacent_mean_difference": [
+            0.05318014869438626,
+            0.11791781584691675,
+            0.11447271929166312,
+            0.052524465982786164
+          ],
+          "adjacent_simulation_SE": [
+            0.003001461299678304,
+            0.001756445637339062,
+            0.0015837243177344459,
+            0.0010447549362960415
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "alternative_oracle_observed_rho2": {
+          "mean": [
+            0.1024689013917736,
+            0.15638555709028146,
+            0.27797418825360054,
+            0.3984475575484998,
+            0.4543340920045937
+          ],
+          "simulation_SE": [
+            0.0011190218217881005,
+            0.0033383636002914286,
+            0.005272896801555495,
+            0.006195961799182827,
+            0.006390548027627511
+          ],
+          "adjacent_mean_difference": [
+            0.05391665569850781,
+            0.12158863116331908,
+            0.12047336929489931,
+            0.05588653445609387
+          ],
+          "adjacent_simulation_SE": [
+            0.003477150904574161,
+            0.002457561433154054,
+            0.001986721336513495,
+            0.0011973228239790992
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "alternative_oracle_surrogate_mean": {
+          "mean": [
+            0.10273904177918303,
+            0.10347554878330456,
+            0.10714636409970688,
+            0.11314701410294307,
+            0.1165090825762508
+          ],
+          "simulation_SE": [
+            0.0008691774243815098,
+            0.0011921420908936032,
+            0.0016498655288689939,
+            0.0021031769895689606,
+            0.0022712352292683416
+          ],
+          "adjacent_mean_difference": [
+            0.0007365070041215442,
+            0.0036708153164023063,
+            0.006000650003236207,
+            0.003362068473307729
+          ],
+          "adjacent_simulation_SE": [
+            0.0008344698732184958,
+            0.0008562474172770971,
+            0.0007436497822511501,
+            0.00036006399757138795
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "artifact_retention": {
+          "mean": [
+            null,
+            0.19378607773413137,
+            0.19378607773413137,
+            0.19378607773413137,
+            0.19378607773413137
+          ],
+          "simulation_SE": [
+            null,
+            0.0037723669494834503,
+            0.0037723669494834503,
+            0.0037723669494834503,
+            0.0037723669494834503
+          ],
+          "adjacent_mean_difference": [
+            null,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            null,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "defined_replicates": [
+            0,
+            16,
+            16,
+            16,
+            16
+          ],
+          "status_by_level": [
+            "UNDEFINED_ZERO_ARTIFACT_ENERGY",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED"
+          ],
+          "replicates": 16,
+          "scope": "All grid levels retained; artifact retention undefined when both pre/post artifact energies are zero. No invented 0/0 value."
+        }
+      }
+    },
+    {
+      "N": 788,
+      "world": "proxy_quality",
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "metrics": {
+        "delta_J": {
+          "mean": [
+            -0.0012785005064880218,
+            -0.028776424055451395,
+            -0.06637033223392966,
+            -0.11753632911207182,
+            -0.16536357579371116
+          ],
+          "simulation_SE": [
+            0.0009264041354327417,
+            0.0027386936438995187,
+            0.003730355693841945,
+            0.004535461501934666,
+            0.004564321813953358
+          ],
+          "adjacent_mean_difference": [
+            -0.027497923548963375,
+            -0.03759390817847827,
+            -0.05116599687814216,
+            -0.04782724668163936
+          ],
+          "adjacent_simulation_SE": [
+            0.0022998292804766,
+            0.00147014450310929,
+            0.0013669855493383812,
+            0.0026976682263345534
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_observed": {
+          "mean": [
+            -0.002383321914584905,
+            -0.03155846904432617,
+            -0.07040676316826737,
+            -0.12259730805399294,
+            -0.17014506881451227
+          ],
+          "simulation_SE": [
+            0.0010641982938219307,
+            0.003437594697820232,
+            0.004763605111796587,
+            0.005713245408485364,
+            0.005756528896741997
+          ],
+          "adjacent_mean_difference": [
+            -0.02917514712974127,
+            -0.038848294123941196,
+            -0.05219054488572556,
+            -0.04754776076051936
+          ],
+          "adjacent_simulation_SE": [
+            0.003027248041689109,
+            0.0018933225678555532,
+            0.0016734792688487894,
+            0.0031620472496056698
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_reference": {
+          "mean": [
+            -0.0011048214080968824,
+            -0.0027820449888747763,
+            -0.004036430934337712,
+            -0.005060978941921104,
+            -0.004781493020801093
+          ],
+          "simulation_SE": [
+            0.0002829319575009015,
+            0.000803830158577512,
+            0.001154285349082526,
+            0.001340522489109765,
+            0.001397732769765208
+          ],
+          "adjacent_mean_difference": [
+            -0.001677223580777894,
+            -0.0012543859454629356,
+            -0.0010245480075833924,
+            0.0002794859211200113
+          ],
+          "adjacent_simulation_SE": [
+            0.0007852598248719702,
+            0.0004663418271310419,
+            0.0003900512173728723,
+            0.0006441769436463977
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "paired_reference_MCSE": {
+          "mean": [
+            6.760729241272976e-05,
+            0.00023260436978274015,
+            0.00030041956532191207,
+            0.00034182510390184397,
+            0.00037840680074153744
+          ],
+          "simulation_SE": [
+            3.1617509487605266e-06,
+            7.669977900856502e-06,
+            8.162499741812482e-06,
+            6.936613525134562e-06,
+            6.190511198228094e-06
+          ],
+          "adjacent_mean_difference": [
+            0.0001649970773700104,
+            6.781519553917197e-05,
+            4.140553857993186e-05,
+            3.658169683969355e-05
+          ],
+          "adjacent_simulation_SE": [
+            7.203607828309043e-06,
+            3.1364672064345336e-06,
+            2.5180192699976847e-06,
+            4.130527924732568e-06
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "signal_retention": {
+          "mean": [
+            0.9890273860045191,
+            0.989117317613464,
+            0.9891990896735904,
+            0.9892681482532298,
+            0.9893235984822898
+          ],
+          "simulation_SE": [
+            0.0005489161219742377,
+            0.000473496434827611,
+            0.0004935059026208846,
+            0.0005361092439734017,
+            0.000600092387334525
+          ],
+          "adjacent_mean_difference": [
+            8.99316089448543e-05,
+            8.177206012629362e-05,
+            6.90585796395346e-05,
+            5.5450229059846035e-05
+          ],
+          "adjacent_simulation_SE": [
+            0.00024043529548428333,
+            0.0001222491045397004,
+            9.757692063620364e-05,
+            0.0001537745910932694
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_excess": {
+          "mean": [
+            0.16569140013218916,
+            0.16569140013218916,
+            0.16569140013218916,
+            0.16569140013218916,
+            0.16569140013218916
+          ],
+          "simulation_SE": [
+            0.004414889760178356,
+            0.004414889760178356,
+            0.004414889760178356,
+            0.004414889760178356,
+            0.004414889760178356
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_observed_rho2": {
+          "mean": [
+            0.2693343045725028,
+            0.2693343045725028,
+            0.2693343045725028,
+            0.2693343045725028,
+            0.2693343045725028
+          ],
+          "simulation_SE": [
+            0.005526446626678331,
+            0.005526446626678331,
+            0.005526446626678331,
+            0.005526446626678331,
+            0.005526446626678331
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_surrogate_mean": {
+          "mean": [
+            0.10364290444031363,
+            0.10364290444031363,
+            0.10364290444031363,
+            0.10364290444031363,
+            0.10364290444031363
+          ],
+          "simulation_SE": [
+            0.001566064973588422,
+            0.001566064973588422,
+            0.001566064973588422,
+            0.001566064973588422,
+            0.001566064973588422
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_excess": {
+          "mean": [
+            0.16441289962570116,
+            0.13691497607673778,
+            0.0993210678982595,
+            0.04815507102011734,
+            0.0003278243384779835
+          ],
+          "simulation_SE": [
+            0.004385297949793691,
+            0.0041546750605931885,
+            0.0035791498453654983,
+            0.0030134592508016802,
+            0.0009972527039429932
+          ],
+          "adjacent_mean_difference": [
+            -0.027497923548963375,
+            -0.03759390817847827,
+            -0.05116599687814216,
+            -0.04782724668163937
+          ],
+          "adjacent_simulation_SE": [
+            0.0022998292804766,
+            0.00147014450310929,
+            0.0013669855493383806,
+            0.0026976682263345525
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_observed_rho2": {
+          "mean": [
+            0.2669509826579179,
+            0.23777583552817666,
+            0.1989275414042354,
+            0.14673699651850988,
+            0.09918923575799052
+          ],
+          "simulation_SE": [
+            0.0056249620825082215,
+            0.004744616889841381,
+            0.0038711328768071913,
+            0.003054500372847181,
+            0.000984534873271599
+          ],
+          "adjacent_mean_difference": [
+            -0.02917514712974127,
+            -0.038848294123941196,
+            -0.05219054488572556,
+            -0.04754776076051936
+          ],
+          "adjacent_simulation_SE": [
+            0.003027248041689109,
+            0.0018933225678555532,
+            0.0016734792688487894,
+            0.00316204724960567
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_surrogate_mean": {
+          "mean": [
+            0.10253808303221675,
+            0.10086085945143884,
+            0.0996064735059759,
+            0.09858192549839255,
+            0.09886141141951255
+          ],
+          "simulation_SE": [
+            0.0016375724571708146,
+            0.0010513573648246752,
+            0.0007299655341054535,
+            0.0005403462638506576,
+            0.000779945243907749
+          ],
+          "adjacent_mean_difference": [
+            -0.001677223580777894,
+            -0.0012543859454629356,
+            -0.0010245480075833924,
+            0.0002794859211200113
+          ],
+          "adjacent_simulation_SE": [
+            0.0007852598248719702,
+            0.0004663418271310419,
+            0.0003900512173728723,
+            0.0006441769436463977
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_excess": {
+          "mean": [
+            -0.0002701403874094026,
+            -0.0002701403874094026,
+            -0.0002701403874094026,
+            -0.0002701403874094026,
+            -0.0002701403874094026
+          ],
+          "simulation_SE": [
+            0.0009225206720391728,
+            0.0009225206720391728,
+            0.0009225206720391728,
+            0.0009225206720391728,
+            0.0009225206720391728
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_observed_rho2": {
+          "mean": [
+            0.1024689013917736,
+            0.1024689013917736,
+            0.1024689013917736,
+            0.1024689013917736,
+            0.1024689013917736
+          ],
+          "simulation_SE": [
+            0.0011190218217881005,
+            0.0011190218217881005,
+            0.0011190218217881005,
+            0.0011190218217881005,
+            0.0011190218217881005
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_surrogate_mean": {
+          "mean": [
+            0.10273904177918303,
+            0.10273904177918303,
+            0.10273904177918303,
+            0.10273904177918303,
+            0.10273904177918303
+          ],
+          "simulation_SE": [
+            0.0008691774243815098,
+            0.0008691774243815098,
+            0.0008691774243815098,
+            0.0008691774243815098,
+            0.0008691774243815098
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "artifact_retention": {
+          "mean": [
+            0.9883892692897354,
+            0.7407160063247843,
+            0.49012771252310205,
+            0.24275940715021344,
+            2.7231712474274026e-30
+          ],
+          "simulation_SE": [
+            0.0016567874665310092,
+            0.006802131903623019,
+            0.006837542789053621,
+            0.004499683855738458,
+            2.1404795017930036e-31
+          ],
+          "adjacent_mean_difference": [
+            -0.2476732629649511,
+            -0.25058829380168224,
+            -0.2473683053728886,
+            -0.24275940715021344
+          ],
+          "adjacent_simulation_SE": [
+            0.006527137560058978,
+            0.0020739127279869787,
+            0.0027280375418504204,
+            0.004499683855738458
+          ],
+          "defined_replicates": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "status_by_level": [
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED"
+          ],
+          "replicates": 16,
+          "scope": "All grid levels retained; artifact retention undefined when both pre/post artifact energies are zero. No invented 0/0 value."
+        }
+      }
+    },
+    {
+      "N": 788,
+      "world": "latent_sharing",
+      "levels": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "metrics": {
+        "delta_J": {
+          "mean": [
+            -0.1298277032597879,
+            -0.10405500018067125,
+            -0.07833847016621596,
+            -0.05269579773276803,
+            -0.027188098180875777
+          ],
+          "simulation_SE": [
+            0.004626210281552502,
+            0.00420661662590489,
+            0.004071781562282384,
+            0.0038961673100005333,
+            0.00368166135366501
+          ],
+          "adjacent_mean_difference": [
+            0.025772703079116617,
+            0.025716530014455282,
+            0.025642672433447946,
+            0.025507699551892256
+          ],
+          "adjacent_simulation_SE": [
+            0.002547742211209764,
+            0.0009887073799853619,
+            0.0008403133086077626,
+            0.0009023850865283647
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_observed": {
+          "mean": [
+            -0.13503041979709418,
+            -0.10939471537041581,
+            -0.08348962938283755,
+            -0.057255651741295044,
+            -0.030733952429949894
+          ],
+          "simulation_SE": [
+            0.005813288232936732,
+            0.005537257629992172,
+            0.005491214504576613,
+            0.005407641959228274,
+            0.005288317164720083
+          ],
+          "adjacent_mean_difference": [
+            0.025635704426678396,
+            0.025905085987578257,
+            0.026233977641542502,
+            0.026521699311345157
+          ],
+          "adjacent_simulation_SE": [
+            0.0030573497077227953,
+            0.0011884799043681462,
+            0.0009941885675730426,
+            0.0010322211549371862
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_reference": {
+          "mean": [
+            -0.005202716537306313,
+            -0.005339715189744537,
+            -0.005151159216621577,
+            -0.0045598540085270145,
+            -0.003545854249074121
+          ],
+          "simulation_SE": [
+            0.001359537076537245,
+            0.0015332302860110605,
+            0.0016999953900817318,
+            0.0018732989460552702,
+            0.002048141982261691
+          ],
+          "adjacent_mean_difference": [
+            -0.00013699865243822426,
+            0.0001885559731229598,
+            0.0005913052080945627,
+            0.0010139997594528936
+          ],
+          "adjacent_simulation_SE": [
+            0.0007530604929445573,
+            0.000413245129949849,
+            0.00035510040532245926,
+            0.00031735180148441573
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "paired_reference_MCSE": {
+          "mean": [
+            0.0003492973809524019,
+            0.00035170837042317293,
+            0.0003579692563987731,
+            0.00036821499743331813,
+            0.0003780929333831352
+          ],
+          "simulation_SE": [
+            6.642642269744429e-06,
+            8.215599241173362e-06,
+            1.0344268249831691e-05,
+            1.2650544794704682e-05,
+            1.4549893636344391e-05
+          ],
+          "adjacent_mean_difference": [
+            2.4109894707710876e-06,
+            6.260885975600275e-06,
+            1.0245741034544956e-05,
+            9.877935949817104e-06
+          ],
+          "adjacent_simulation_SE": [
+            5.120096839822963e-06,
+            4.330276822836277e-06,
+            3.7224714284329957e-06,
+            3.7212147985130764e-06
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "signal_retention": {
+          "mean": [
+            0.9892803995658231,
+            0.988960666696271,
+            0.9889709368838777,
+            0.9890707403932194,
+            0.9892560328709743
+          ],
+          "simulation_SE": [
+            0.0005460132418757988,
+            0.0005593797884949111,
+            0.0007651243459500188,
+            0.001027429510074268,
+            0.0013003273109250635
+          ],
+          "adjacent_mean_difference": [
+            -0.00031973286955219726,
+            1.0270187606693792e-05,
+            9.980350934164772e-05,
+            0.00018529247775492252
+          ],
+          "adjacent_simulation_SE": [
+            0.0005012578246495092,
+            0.000363401348707542,
+            0.0003437002086899855,
+            0.0003350251279363809
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_excess": {
+          "mean": [
+            0.16569140013218916,
+            0.20275170112088475,
+            0.23936040758781982,
+            0.2758839584849569,
+            0.31235516008225783
+          ],
+          "simulation_SE": [
+            0.004414889760178356,
+            0.005326557248734184,
+            0.005742144657501948,
+            0.005956780834973603,
+            0.00603216858323189
+          ],
+          "adjacent_mean_difference": [
+            0.03706030098869559,
+            0.0366087064669351,
+            0.03652355089713702,
+            0.03647120159730098
+          ],
+          "adjacent_simulation_SE": [
+            0.0029632431092692707,
+            0.0011242662688221844,
+            0.0008699017918461664,
+            0.0008703984322831074
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_observed_rho2": {
+          "mean": [
+            0.2693343045725028,
+            0.3085393900119503,
+            0.3473291959960792,
+            0.3862153535987065,
+            0.42523385422991533
+          ],
+          "simulation_SE": [
+            0.005526446626678331,
+            0.007142100411384141,
+            0.007963479012549235,
+            0.008475596640072301,
+            0.008756678300994662
+          ],
+          "adjacent_mean_difference": [
+            0.039205085439447444,
+            0.03878980598412908,
+            0.03888615760262726,
+            0.03901850063120873
+          ],
+          "adjacent_simulation_SE": [
+            0.003921253112374499,
+            0.0014944114184591115,
+            0.0010954025923176145,
+            0.0010010617796375547
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_surrogate_mean": {
+          "mean": [
+            0.10364290444031363,
+            0.10578768889106549,
+            0.10796878840825945,
+            0.11033139511374968,
+            0.11287869414765746
+          ],
+          "simulation_SE": [
+            0.001566064973588422,
+            0.0021718992921783277,
+            0.00253717052200128,
+            0.002833353914524242,
+            0.0030782052129376195
+          ],
+          "adjacent_mean_difference": [
+            0.0021447844507518563,
+            0.0021810995171939775,
+            0.002362606705490238,
+            0.0025472990339077614
+          ],
+          "adjacent_simulation_SE": [
+            0.001099831039923088,
+            0.0005383714997505938,
+            0.0004358104797724675,
+            0.00039493024543100835
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_excess": {
+          "mean": [
+            0.035863696872401284,
+            0.09869670094021349,
+            0.16102193742160387,
+            0.22318816075218884,
+            0.28516706190138214
+          ],
+          "simulation_SE": [
+            0.0028622494101115006,
+            0.0034200098451940895,
+            0.004114007172707678,
+            0.004504391727413024,
+            0.00476505790694129
+          ],
+          "adjacent_mean_difference": [
+            0.0628330040678122,
+            0.062325236481390385,
+            0.062166223330584955,
+            0.061978901149193244
+          ],
+          "adjacent_simulation_SE": [
+            0.0034777268320745135,
+            0.0013969708011451528,
+            0.001097613227263698,
+            0.0011740162966183089
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_observed_rho2": {
+          "mean": [
+            0.13430388477540864,
+            0.19914467464153449,
+            0.2638395666132418,
+            0.3289597018574115,
+            0.3944999017999654
+          ],
+          "simulation_SE": [
+            0.002846444994072443,
+            0.004050999345713478,
+            0.0052133742690402985,
+            0.005999120359249174,
+            0.006585917072667984
+          ],
+          "adjacent_mean_difference": [
+            0.06484078986612583,
+            0.06469489197170733,
+            0.06512013524416976,
+            0.06554019994255389
+          ],
+          "adjacent_simulation_SE": [
+            0.0041888295807441965,
+            0.001750219219941537,
+            0.0013613889527726074,
+            0.0013488374291004287
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_surrogate_mean": {
+          "mean": [
+            0.0984401879030073,
+            0.10044797370132093,
+            0.10281762919163787,
+            0.10577154110522269,
+            0.10933283989858335
+          ],
+          "simulation_SE": [
+            0.0005285670112076355,
+            0.0010474930065843843,
+            0.001439106396859516,
+            0.0017848302006615903,
+            0.0020740190303021096
+          ],
+          "adjacent_mean_difference": [
+            0.002007785798313632,
+            0.0023696554903169373,
+            0.0029539119135848007,
+            0.003561298793360655
+          ],
+          "adjacent_simulation_SE": [
+            0.0008272947557117543,
+            0.00048778889407494473,
+            0.0004232163290544624,
+            0.00037401897436217444
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_excess": {
+          "mean": [
+            -0.0002701403874094026,
+            0.049420859582936044,
+            0.12476743893172018,
+            0.20072795419841977,
+            0.2764856339220795
+          ],
+          "simulation_SE": [
+            0.0009225206720391728,
+            0.0035744782650878842,
+            0.004834740410469724,
+            0.005459383428968849,
+            0.005833636317420249
+          ],
+          "adjacent_mean_difference": [
+            0.049690999970345436,
+            0.07534657934878414,
+            0.07596051526669959,
+            0.07575767972365968
+          ],
+          "adjacent_simulation_SE": [
+            0.0038700685235057222,
+            0.0015774204758720667,
+            0.001144371589585318,
+            0.0012977935096521738
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_observed_rho2": {
+          "mean": [
+            0.1024689013917736,
+            0.15280072362197267,
+            0.23009340598464423,
+            0.30899766162555614,
+            0.3885319832893963
+          ],
+          "simulation_SE": [
+            0.0011190218217881005,
+            0.004387529799869017,
+            0.006032376246073254,
+            0.006994925398216848,
+            0.007657607837573012
+          ],
+          "adjacent_mean_difference": [
+            0.050331822230199066,
+            0.0772926823626715,
+            0.07890425564091194,
+            0.07953432166384028
+          ],
+          "adjacent_simulation_SE": [
+            0.0044504651036135195,
+            0.001910613402020987,
+            0.00140565697982913,
+            0.0014946873072040328
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_surrogate_mean": {
+          "mean": [
+            0.10273904177918303,
+            0.1033798640390366,
+            0.10532596705292399,
+            0.10826970742713635,
+            0.11204634936731693
+          ],
+          "simulation_SE": [
+            0.0008691774243815098,
+            0.001214343485789327,
+            0.0014619461786542715,
+            0.0017230527330244576,
+            0.0019872649431343305
+          ],
+          "adjacent_mean_difference": [
+            0.0006408222598536109,
+            0.001946103013887369,
+            0.0029437403742123627,
+            0.0037766419401805843
+          ],
+          "adjacent_simulation_SE": [
+            0.000641087664322651,
+            0.0004760893964763711,
+            0.00047482621399886813,
+            0.00047463470932625543
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "artifact_retention": {
+          "mean": [
+            0.19378607773413137,
+            0.19378607773413137,
+            0.19378607773413137,
+            0.19378607773413137,
+            0.19378607773413137
+          ],
+          "simulation_SE": [
+            0.0037723669494834503,
+            0.0037723669494834503,
+            0.0037723669494834503,
+            0.0037723669494834503,
+            0.0037723669494834503
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "defined_replicates": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "status_by_level": [
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED"
+          ],
+          "replicates": 16,
+          "scope": "All grid levels retained; artifact retention undefined when both pre/post artifact energies are zero. No invented 0/0 value."
+        }
+      }
+    },
+    {
+      "N": 788,
+      "world": "proxy_contamination",
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0,
+        4.0
+      ],
+      "metrics": {
+        "delta_J": {
+          "mean": [
+            -0.09762678301565786,
+            -0.1576566813640416,
+            -0.1450012650612189,
+            -0.0890250991505891,
+            -0.05123891472796542
+          ],
+          "simulation_SE": [
+            0.004174332639766476,
+            0.006041283630281093,
+            0.0065358570662031575,
+            0.0060610175149277455,
+            0.005174255418659113
+          ],
+          "adjacent_mean_difference": [
+            -0.060029898348383764,
+            0.012655416302822709,
+            0.05597616591062981,
+            0.03778618442262369
+          ],
+          "adjacent_simulation_SE": [
+            0.003443777167360409,
+            0.0020172080982792206,
+            0.0021326777322562105,
+            0.0013663774721602985
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_observed": {
+          "mean": [
+            -0.10295750744789119,
+            -0.1652040755483253,
+            -0.15273846432553095,
+            -0.09515705721589662,
+            -0.055778394403151715
+          ],
+          "simulation_SE": [
+            0.005526751506966247,
+            0.007998993231423947,
+            0.008538818971395327,
+            0.007923585780317335,
+            0.006800957491274428
+          ],
+          "adjacent_mean_difference": [
+            -0.062246568100434135,
+            0.012465611222794368,
+            0.05758140710963436,
+            0.03937866281274488
+          ],
+          "adjacent_simulation_SE": [
+            0.004205385919731208,
+            0.0026092856388284817,
+            0.00276293031482083,
+            0.0017598138995324614
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "delta_reference": {
+          "mean": [
+            -0.005330724432233322,
+            -0.007547394184283702,
+            -0.007737199264312044,
+            -0.006131958065307503,
+            -0.004539479675186307
+          ],
+          "simulation_SE": [
+            0.0015727307678066447,
+            0.0021146160225715776,
+            0.0021751017538657975,
+            0.0020545145383866403,
+            0.0018124750799967879
+          ],
+          "adjacent_mean_difference": [
+            -0.0022166697520503795,
+            -0.00018980508002834195,
+            0.0016052411990045406,
+            0.0015924783901211962
+          ],
+          "adjacent_simulation_SE": [
+            0.000868080707166594,
+            0.0006800322375302911,
+            0.0007063454524042756,
+            0.000457661662132491
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "paired_reference_MCSE": {
+          "mean": [
+            0.0003528724756504231,
+            0.00039317835147748036,
+            0.00038968155173761004,
+            0.00035897413997946635,
+            0.0003133391463305596
+          ],
+          "simulation_SE": [
+            8.586438736274728e-06,
+            9.707296314888486e-06,
+            1.2465453107901377e-05,
+            1.4160312956226746e-05,
+            1.2651233654173127e-05
+          ],
+          "adjacent_mean_difference": [
+            4.030587582705734e-05,
+            -3.4967997398703748e-06,
+            -3.070741175814369e-05,
+            -4.56349936489068e-05
+          ],
+          "adjacent_simulation_SE": [
+            6.875100598782085e-06,
+            4.497973984396504e-06,
+            3.3138881234683444e-06,
+            3.6278575292975813e-06
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "signal_retention": {
+          "mean": [
+            0.9889523811026706,
+            0.9500969561218516,
+            0.8824661908960951,
+            0.8036729048024569,
+            0.7620150192998121
+          ],
+          "simulation_SE": [
+            0.0006007722785118407,
+            0.0027331912610043417,
+            0.004216597045230415,
+            0.005052953517409008,
+            0.005167684178084874
+          ],
+          "adjacent_mean_difference": [
+            -0.03885542498081894,
+            -0.06763076522575635,
+            -0.0787932860936382,
+            -0.0416578855026448
+          ],
+          "adjacent_simulation_SE": [
+            0.002837842839236595,
+            0.0019367003417405796,
+            0.0016552233561940158,
+            0.0008672316186931708
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_excess": {
+          "mean": [
+            0.21191534965412298,
+            0.21191534965412298,
+            0.21191534965412298,
+            0.21191534965412298,
+            0.21191534965412298
+          ],
+          "simulation_SE": [
+            0.005455238946600587,
+            0.005455238946600587,
+            0.005455238946600587,
+            0.005455238946600587,
+            0.005455238946600587
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_observed_rho2": {
+          "mean": [
+            0.3182327052441105,
+            0.3182327052441105,
+            0.3182327052441105,
+            0.3182327052441105,
+            0.3182327052441105
+          ],
+          "simulation_SE": [
+            0.0073849210472145665,
+            0.0073849210472145665,
+            0.0073849210472145665,
+            0.0073849210472145665,
+            0.0073849210472145665
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "BASE_surrogate_mean": {
+          "mean": [
+            0.1063173555899875,
+            0.1063173555899875,
+            0.1063173555899875,
+            0.1063173555899875,
+            0.1063173555899875
+          ],
+          "simulation_SE": [
+            0.0022715472049809767,
+            0.0022715472049809767,
+            0.0022715472049809767,
+            0.0022715472049809767,
+            0.0022715472049809767
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_excess": {
+          "mean": [
+            0.11428856663846512,
+            0.05425866829008135,
+            0.06691408459290406,
+            0.12289025050353389,
+            0.16067643492615755
+          ],
+          "simulation_SE": [
+            0.003628326509761026,
+            0.002906773042102363,
+            0.003548638121124079,
+            0.004232896947633559,
+            0.004475220850384692
+          ],
+          "adjacent_mean_difference": [
+            -0.06002989834838376,
+            0.01265541630282271,
+            0.05597616591062981,
+            0.03778618442262369
+          ],
+          "adjacent_simulation_SE": [
+            0.0034437771673604084,
+            0.00201720809827922,
+            0.002132677732256211,
+            0.0013663774721602985
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_observed_rho2": {
+          "mean": [
+            0.21527519779621931,
+            0.15302862969578518,
+            0.1654942409185795,
+            0.22307564802821386,
+            0.2624543108409587
+          ],
+          "simulation_SE": [
+            0.004387350565824536,
+            0.0030193525300544212,
+            0.003780891297805866,
+            0.005015255977018417,
+            0.00556319192657152
+          ],
+          "adjacent_mean_difference": [
+            -0.062246568100434135,
+            0.012465611222794368,
+            0.05758140710963436,
+            0.03937866281274488
+          ],
+          "adjacent_simulation_SE": [
+            0.004205385919731208,
+            0.0026092856388284817,
+            0.00276293031482083,
+            0.0017598138995324614
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "A5_surrogate_mean": {
+          "mean": [
+            0.10098663115775416,
+            0.09876996140570381,
+            0.09858015632567547,
+            0.10018539752468002,
+            0.10177787591480118
+          ],
+          "simulation_SE": [
+            0.0011502884923373078,
+            0.0005876079488616177,
+            0.000738671967905786,
+            0.0012574333190182596,
+            0.0014915571027062867
+          ],
+          "adjacent_mean_difference": [
+            -0.0022166697520503795,
+            -0.00018980508002834195,
+            0.0016052411990045406,
+            0.0015924783901211962
+          ],
+          "adjacent_simulation_SE": [
+            0.000868080707166594,
+            0.0006800322375302911,
+            0.0007063454524042756,
+            0.000457661662132491
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_excess": {
+          "mean": [
+            0.06801544553333107,
+            0.06801544553333107,
+            0.06801544553333107,
+            0.06801544553333107,
+            0.06801544553333107
+          ],
+          "simulation_SE": [
+            0.003999315201979093,
+            0.003999315201979093,
+            0.003999315201979093,
+            0.003999315201979093,
+            0.003999315201979093
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_observed_rho2": {
+          "mean": [
+            0.1717777709733472,
+            0.1717777709733472,
+            0.1717777709733472,
+            0.1717777709733472,
+            0.1717777709733472
+          ],
+          "simulation_SE": [
+            0.004912644548981353,
+            0.004912644548981353,
+            0.004912644548981353,
+            0.004912644548981353,
+            0.004912644548981353
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "oracle_surrogate_mean": {
+          "mean": [
+            0.10376232544001611,
+            0.10376232544001611,
+            0.10376232544001611,
+            0.10376232544001611,
+            0.10376232544001611
+          ],
+          "simulation_SE": [
+            0.001274772312711541,
+            0.001274772312711541,
+            0.001274772312711541,
+            0.001274772312711541,
+            0.001274772312711541
+          ],
+          "adjacent_mean_difference": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "adjacent_simulation_SE": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "replicates": 16,
+          "scope": "Mean response and MC standard error across independent generator replicates, paired across levels; no p/CI or patient sampling inference."
+        },
+        "artifact_retention": {
+          "mean": [
+            0.19378607773413137,
+            0.32719589421574136,
+            0.5483820367972159,
+            0.8011143716484106,
+            0.9320995248508163
+          ],
+          "simulation_SE": [
+            0.0037723669494834503,
+            0.006742285412456097,
+            0.010031706507823573,
+            0.009788862096246985,
+            0.006214649362762881
+          ],
+          "adjacent_mean_difference": [
+            0.13340981648160993,
+            0.22118614258147457,
+            0.25273233485119473,
+            0.13098515320240556
+          ],
+          "adjacent_simulation_SE": [
+            0.004346470489388469,
+            0.003851964827159472,
+            0.0021480773364192457,
+            0.0038513033659653903
+          ],
+          "defined_replicates": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "status_by_level": [
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED",
+            "DEFINED"
+          ],
+          "replicates": 16,
+          "scope": "All grid levels retained; artifact retention undefined when both pre/post artifact energies are zero. No invented 0/0 value."
+        }
+      }
+    }
+  ],
+  "population_functionals": {
+    "null": [
+      {
+        "BASE": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "A5": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": 0.0
+      },
+      {
+        "BASE": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "A5": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": 0.0
+      },
+      {
+        "BASE": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "A5": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": 0.0
+      },
+      {
+        "BASE": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "A5": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": 0.0
+      },
+      {
+        "BASE": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "A5": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": 0.0
+      }
+    ],
+    "observation_amplitude": [
+      {
+        "BASE": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "A5": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "alternative_oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": 0.0
+      },
+      {
+        "BASE": {
+          "rho2": 0.1477741370885375,
+          "reference": 0.07665188937350347,
+          "J": 0.07112224771503405
+        },
+        "A5": {
+          "rho2": 0.08636150868810637,
+          "reference": 0.07665188937350347,
+          "J": 0.009709619314602902
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "alternative_oracle": {
+          "rho2": 0.1477741370885375,
+          "reference": 0.07665188937350347,
+          "J": 0.07112224771503405
+        },
+        "delta_J": -0.06141262840043114
+      },
+      {
+        "BASE": {
+          "rho2": 0.26868024925188655,
+          "reference": 0.07665188937350347,
+          "J": 0.19202835987838307
+        },
+        "A5": {
+          "rho2": 0.13434012462594322,
+          "reference": 0.07665188937350347,
+          "J": 0.057688235252439754
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "alternative_oracle": {
+          "rho2": 0.26868024925188655,
+          "reference": 0.07665188937350347,
+          "J": 0.19202835987838307
+        },
+        "delta_J": -0.1343401246259433
+      },
+      {
+        "BASE": {
+          "rho2": 0.38958636141523534,
+          "reference": 0.07665188937350347,
+          "J": 0.31293447204173186
+        },
+        "A5": {
+          "rho2": 0.2462902284808961,
+          "reference": 0.07665188937350347,
+          "J": 0.16963833910739262
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "alternative_oracle": {
+          "rho2": 0.38958636141523534,
+          "reference": 0.07665188937350347,
+          "J": 0.31293447204173186
+        },
+        "delta_J": -0.14329613293433924
+      },
+      {
+        "BASE": {
+          "rho2": 0.44648335537445827,
+          "reference": 0.07665188937350347,
+          "J": 0.3698314660009548
+        },
+        "A5": {
+          "rho2": 0.3742332043151275,
+          "reference": 0.07665188937350347,
+          "J": 0.29758131494162404
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "alternative_oracle": {
+          "rho2": 0.44648335537445827,
+          "reference": 0.07665188937350347,
+          "J": 0.3698314660009548
+        },
+        "delta_J": -0.07225015105933075
+      }
+    ],
+    "proxy_quality": [
+      {
+        "BASE": {
+          "rho2": 0.26868024925188655,
+          "reference": 0.07665188937350347,
+          "J": 0.19202835987838307
+        },
+        "A5": {
+          "rho2": 0.26868024925188655,
+          "reference": 0.07665188937350347,
+          "J": 0.19202835987838307
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": 0.0
+      },
+      {
+        "BASE": {
+          "rho2": 0.26868024925188655,
+          "reference": 0.07665188937350347,
+          "J": 0.19202835987838307
+        },
+        "A5": {
+          "rho2": 0.23989307968918452,
+          "reference": 0.07665188937350347,
+          "J": 0.16324119031568107
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": -0.028787169562701997
+      },
+      {
+        "BASE": {
+          "rho2": 0.26868024925188655,
+          "reference": 0.07665188937350347,
+          "J": 0.19202835987838307
+        },
+        "A5": {
+          "rho2": 0.20151018693891487,
+          "reference": 0.07665188937350347,
+          "J": 0.1248582975654114
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": -0.06717006231297167
+      },
+      {
+        "BASE": {
+          "rho2": 0.26868024925188655,
+          "reference": 0.07665188937350347,
+          "J": 0.19202835987838307
+        },
+        "A5": {
+          "rho2": 0.1477741370885375,
+          "reference": 0.07665188937350347,
+          "J": 0.07112224771503405
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": -0.12090611216334902
+      },
+      {
+        "BASE": {
+          "rho2": 0.26868024925188655,
+          "reference": 0.07665188937350347,
+          "J": 0.19202835987838307
+        },
+        "A5": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": -0.19202835987838307
+      }
+    ],
+    "latent_sharing": [
+      {
+        "BASE": {
+          "rho2": 0.26868024925188655,
+          "reference": 0.07665188937350347,
+          "J": 0.19202835987838307
+        },
+        "A5": {
+          "rho2": 0.13434012462594322,
+          "reference": 0.07665188937350347,
+          "J": 0.057688235252439754
+        },
+        "oracle": {
+          "rho2": 0.07665188937350347,
+          "reference": 0.07665188937350347,
+          "J": 0.0
+        },
+        "delta_J": -0.1343401246259433
+      },
+      {
+        "BASE": {
+          "rho2": 0.3089822866396694,
+          "reference": 0.07665188937350347,
+          "J": 0.23233039726616594
+        },
+        "A5": {
+          "rho2": 0.20151018693891493,
+          "reference": 0.07665188937350347,
+          "J": 0.12485829756541146
+        },
+        "oracle": {
+          "rho2": 0.14777413708853754,
+          "reference": 0.07665188937350347,
+          "J": 0.07112224771503407
+        },
+        "delta_J": -0.10747209970075448
+      },
+      {
+        "BASE": {
+          "rho2": 0.34928432402745246,
+          "reference": 0.07665188937350347,
+          "J": 0.272632434653949
+        },
+        "A5": {
+          "rho2": 0.26868024925188644,
+          "reference": 0.07665188937350347,
+          "J": 0.19202835987838296
+        },
+        "oracle": {
+          "rho2": 0.22837821186410348,
+          "reference": 0.07665188937350347,
+          "J": 0.15172632249060003
+        },
+        "delta_J": -0.08060407477556603
+      },
+      {
+        "BASE": {
+          "rho2": 0.3895863614152356,
+          "reference": 0.07665188937350347,
+          "J": 0.31293447204173214
+        },
+        "A5": {
+          "rho2": 0.3358503115648581,
+          "reference": 0.07665188937350347,
+          "J": 0.25919842219135464
+        },
+        "oracle": {
+          "rho2": 0.30898228663966937,
+          "reference": 0.07665188937350347,
+          "J": 0.2323303972661659
+        },
+        "delta_J": -0.0537360498503775
+      },
+      {
+        "BASE": {
+          "rho2": 0.4298883988030186,
+          "reference": 0.07665188937350347,
+          "J": 0.3532365094295151
+        },
+        "A5": {
+          "rho2": 0.4030203738778296,
+          "reference": 0.07665188937350347,
+          "J": 0.3263684845043261
+        },
+        "oracle": {
+          "rho2": 0.38958636141523545,
+          "reference": 0.07665188937350347,
+          "J": 0.31293447204173197
+        },
+        "delta_J": -0.026868024925189027
+      }
+    ],
+    "proxy_contamination": [
+      {
+        "BASE": {
+          "rho2": 0.319057795986615,
+          "reference": 0.07665188937350347,
+          "J": 0.2424059066131115
+        },
+        "A5": {
+          "rho2": 0.2183027025171577,
+          "reference": 0.07665188937350347,
+          "J": 0.14165081314365424
+        },
+        "oracle": {
+          "rho2": 0.16792515578242903,
+          "reference": 0.07665188937350347,
+          "J": 0.09127326640892557
+        },
+        "delta_J": -0.10075509346945727
+      },
+      {
+        "BASE": {
+          "rho2": 0.319057795986615,
+          "reference": 0.07665188937350347,
+          "J": 0.2424059066131115
+        },
+        "A5": {
+          "rho2": 0.15478318706902147,
+          "reference": 0.07665188937350347,
+          "J": 0.078131297695518
+        },
+        "oracle": {
+          "rho2": 0.16792515578242903,
+          "reference": 0.07665188937350347,
+          "J": 0.09127326640892557
+        },
+        "delta_J": -0.1642746089175935
+      },
+      {
+        "BASE": {
+          "rho2": 0.319057795986615,
+          "reference": 0.07665188937350347,
+          "J": 0.2424059066131115
+        },
+        "A5": {
+          "rho2": 0.16792515578242903,
+          "reference": 0.07665188937350347,
+          "J": 0.09127326640892557
+        },
+        "oracle": {
+          "rho2": 0.16792515578242903,
+          "reference": 0.07665188937350347,
+          "J": 0.09127326640892557
+        },
+        "delta_J": -0.15113264020418593
+      },
+      {
+        "BASE": {
+          "rho2": 0.319057795986615,
+          "reference": 0.07665188937350347,
+          "J": 0.2424059066131115
+        },
+        "A5": {
+          "rho2": 0.22605309432250073,
+          "reference": 0.07665188937350347,
+          "J": 0.14940120494899728
+        },
+        "oracle": {
+          "rho2": 0.16792515578242903,
+          "reference": 0.07665188937350347,
+          "J": 0.09127326640892557
+        },
+        "delta_J": -0.09300470166411423
+      },
+      {
+        "BASE": {
+          "rho2": 0.319057795986615,
+          "reference": 0.07665188937350347,
+          "J": 0.2424059066131115
+        },
+        "A5": {
+          "rho2": 0.2657168641498437,
+          "reference": 0.07665188937350347,
+          "J": 0.1890649747763402
+        },
+        "oracle": {
+          "rho2": 0.16792515578242903,
+          "reference": 0.07665188937350347,
+          "J": 0.09127326640892557
+        },
+        "delta_J": -0.0533409318367713
+      }
+    ]
+  },
+  "scope": "Aggregate accepted outputs only; no participant identifiers, new fits or inferential tests. Population functional is not expected finite J."
+}

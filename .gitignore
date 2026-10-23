@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+results/
+papers/01_response_transfer/data/msc_sessions123.npz
+.DS_Store

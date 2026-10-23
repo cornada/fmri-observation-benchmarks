@@ -1,0 +1,1640 @@
+{
+  "cells": [
+    {
+      "variant": "noncircular_L10",
+      "N": 97,
+      "alpha": [
+        0,
+        0.5,
+        1
+      ],
+      "J_pp": [
+        0.08781153066673647,
+        0.43768289132057014,
+        1.3621639601272082
+      ],
+      "simulation_SE_pp": [
+        0.06675867332979239,
+        0.07681723122460267,
+        0.08206947858161101
+      ]
+    },
+    {
+      "variant": "noncircular_L10",
+      "N": 197,
+      "alpha": [
+        0,
+        0.5,
+        1
+      ],
+      "J_pp": [
+        -0.04422043940550259,
+        0.47326265903335313,
+        1.641251270444857
+      ],
+      "simulation_SE_pp": [
+        0.03926737457750768,
+        0.04683787013734332,
+        0.056427860914307015
+      ]
+    },
+    {
+      "variant": "noncircular_L10",
+      "N": 788,
+      "alpha": [
+        0,
+        0.5,
+        1
+      ],
+      "J_pp": [
+        -0.03534400330545697,
+        0.7584999030167725,
+        2.1642388459918593
+      ],
+      "simulation_SE_pp": [
+        0.013925582001045322,
+        0.02737950952494792,
+        0.028741936429485287
+      ]
+    },
+    {
+      "variant": "noncircular_L1",
+      "N": 97,
+      "alpha": [
+        0,
+        0.5,
+        1
+      ],
+      "J_pp": [
+        -0.16628208227789323,
+        -0.2710801080615729,
+        -0.5838212199914183
+      ],
+      "simulation_SE_pp": [
+        0.17363399967014614,
+        0.16389491820367222,
+        0.1635809661919479
+      ]
+    },
+    {
+      "variant": "noncircular_L1",
+      "N": 197,
+      "alpha": [
+        0,
+        0.5,
+        1
+      ],
+      "J_pp": [
+        -0.1041403299473307,
+        -0.1466752156119788,
+        -0.15551060579384635
+      ],
+      "simulation_SE_pp": [
+        0.15239405046711216,
+        0.1504300199503413,
+        0.14062421182711005
+      ]
+    },
+    {
+      "variant": "noncircular_L1",
+      "N": 788,
+      "alpha": [
+        0,
+        0.5,
+        1
+      ],
+      "J_pp": [
+        -0.06810042779261385,
+        -0.03924549443446611,
+        -0.09980959187056984
+      ],
+      "simulation_SE_pp": [
+        0.06414457129368992,
+        0.06363108274912872,
+        0.06517002965683126
+      ]
+    }
+  ],
+  "paired_contrasts": [
+    {
+      "variant": "noncircular_L10",
+      "N": [
+        97,
+        197,
+        788
+      ],
+      "paired_alpha1_minus_alpha0_J_pp": [
+        1.2743524294604718,
+        1.6854717098503593,
+        2.199582849297316
+      ],
+      "simulation_SE_pp": [
+        0.0816626011853983,
+        0.05597503164163374,
+        0.028854961282771638
+      ],
+      "conditional_reference_MCSE_of_bank_mean_pp": [
+        0.0047040338675974295,
+        0.0029238947803124937,
+        0.0012104111961017726
+      ]
+    },
+    {
+      "variant": "circular_L10",
+      "N": [
+        97,
+        197,
+        788
+      ],
+      "paired_alpha1_minus_alpha0_J_pp": [
+        1.290562498184459,
+        1.6669440437593996,
+        2.1962507039608163
+      ],
+      "simulation_SE_pp": [
+        0.07590950015758753,
+        0.054869693469122155,
+        0.02816503508032832
+      ],
+      "conditional_reference_MCSE_of_bank_mean_pp": [
+        0.004429292304311237,
+        0.0028679510836555956,
+        0.0012074308098734162
+      ]
+    },
+    {
+      "variant": "noncircular_L1",
+      "N": [
+        97,
+        197,
+        788
+      ],
+      "paired_alpha1_minus_alpha0_J_pp": [
+        -0.41753913771352513,
+        -0.051370275846515656,
+        -0.03170916407795599
+      ],
+      "simulation_SE_pp": [
+        0.14798460288217666,
+        0.10289583985498015,
+        0.057171469093242853
+      ],
+      "conditional_reference_MCSE_of_bank_mean_pp": [
+        0.012042394226804762,
+        0.008271159589232765,
+        0.004079201867148866
+      ]
+    }
+  ],
+  "all_measurement_cells": [
+    {
+      "N": 97,
+      "alpha": 0,
+      "variant": "noncircular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.09299577102117546,
+          "simulation_SD": 0.007369815422228461,
+          "simulation_SE": 0.0009212269277785576,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.09211765571450808,
+          "simulation_SD": 0.0035170558505521884,
+          "simulation_SE": 0.00043963198131902355,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.0008781153066673647,
+          "simulation_SD": 0.005340693866383392,
+          "simulation_SE": 0.000667586733297924,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 0.0001362474269307461,
+          "simulation_SD": 0.003667360694522078,
+          "simulation_SE": 0.00045842008681525975,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 6.495808614762413e-07,
+          "simulation_SD": 0.00026579433381140134,
+          "simulation_SE": 3.322429172642517e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.00013559784606926987,
+          "simulation_SD": 0.0036812213938249736,
+          "simulation_SE": 0.0004601526742281217,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.00037971201047231544
+    },
+    {
+      "N": 97,
+      "alpha": 0.5,
+      "variant": "noncircular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.0972792984605421,
+          "simulation_SD": 0.008425344066165736,
+          "simulation_SE": 0.001053168008270717,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.09290246954733641,
+          "simulation_SD": 0.003786579124569148,
+          "simulation_SE": 0.0004733223905711435,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.004376828913205701,
+          "simulation_SD": 0.0061453784979682135,
+          "simulation_SE": 0.0007681723122460267,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": -0.00016502738494514552,
+          "simulation_SD": 0.0032404160320753514,
+          "simulation_SE": 0.0004050520040094189,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": -2.3891219576759395e-06,
+          "simulation_SD": 0.0002719998185969748,
+          "simulation_SE": 3.399997732462185e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.00016263826298746958,
+          "simulation_SD": 0.0032631889095000254,
+          "simulation_SE": 0.0004078986136875032,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.00038759226915433345
+    },
+    {
+      "N": 97,
+      "alpha": 1,
+      "variant": "noncircular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.10885290630684592,
+          "simulation_SD": 0.008721117141429952,
+          "simulation_SE": 0.001090139642678744,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.09523126670557384,
+          "simulation_SD": 0.004476065650074293,
+          "simulation_SE": 0.0005595082062592867,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.013621639601272082,
+          "simulation_SD": 0.0065655582865288805,
+          "simulation_SE": 0.0008206947858161101,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 0.00033283653122603883,
+          "simulation_SD": 0.004967723522562292,
+          "simulation_SE": 0.0006209654403202865,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": -2.7507522877735432e-05,
+          "simulation_SD": 0.0002927135566664451,
+          "simulation_SE": 3.6589194583305636e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.00036034405410377427,
+          "simulation_SD": 0.004996884076283505,
+          "simulation_SE": 0.0006246105095354381,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.00042128079215126473
+    },
+    {
+      "N": 97,
+      "alpha": 0,
+      "variant": "circular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.08908270168045529,
+          "simulation_SD": 0.006755017704285453,
+          "simulation_SE": 0.0008443772130356816,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.08821684895780804,
+          "simulation_SD": 0.0035347580667707,
+          "simulation_SE": 0.0004418447583463375,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.0008658527226472496,
+          "simulation_SD": 0.004717135638357805,
+          "simulation_SE": 0.0005896419547947256,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 4.336808689942018e-19,
+          "simulation_SD": 4.8008445147396286e-17,
+          "simulation_SE": 6.001055643424536e-18,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.0,
+          "simulation_SD": 1.4628472785736255e-17,
+          "simulation_SE": 1.828559098217032e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 4.336808689942018e-19,
+          "simulation_SD": 5.0672630956342744e-17,
+          "simulation_SE": 6.334078869542843e-18,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.0003546280246809729
+    },
+    {
+      "N": 97,
+      "alpha": 0.5,
+      "variant": "circular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.09317332548591568,
+          "simulation_SD": 0.007923649082960253,
+          "simulation_SE": 0.0009904561353700316,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.08902067340376084,
+          "simulation_SD": 0.0038452061394280896,
+          "simulation_SE": 0.0004806507674285112,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.004152652082154845,
+          "simulation_SD": 0.005490211835437163,
+          "simulation_SE": 0.0006862764794296454,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 6.7220534694101275e-18,
+          "simulation_SD": 5.1866560448008914e-17,
+          "simulation_SE": 6.483320056001114e-18,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 4.119968255444917e-18,
+          "simulation_SD": 1.3917313504794315e-17,
+          "simulation_SE": 1.7396641880992894e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 2.6020852139652106e-18,
+          "simulation_SD": 5.221214399740032e-17,
+          "simulation_SE": 6.52651799967504e-18,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.0003617530210918619
+    },
+    {
+      "N": 97,
+      "alpha": 1,
+      "variant": "circular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.10514401235093349,
+          "simulation_SD": 0.008560854494915511,
+          "simulation_SE": 0.0010701068118644389,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.09137253464644164,
+          "simulation_SD": 0.004501774842340398,
+          "simulation_SE": 0.0005627218552925498,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.01377147770449184,
+          "simulation_SD": 0.006181581578171198,
+          "simulation_SE": 0.0007726976972713997,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 1.0191500421363742e-17,
+          "simulation_SD": 4.915827254224527e-17,
+          "simulation_SE": 6.1447840677806584e-18,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.0,
+          "simulation_SD": 1.236331601504531e-17,
+          "simulation_SE": 1.5454145018806638e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 1.0191500421363742e-17,
+          "simulation_SD": 4.99601699600728e-17,
+          "simulation_SE": 6.2450212450091e-18,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.00039027163240514586
+    },
+    {
+      "N": 97,
+      "alpha": 0,
+      "variant": "noncircular_L1",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.3735590290140111,
+          "simulation_SD": 0.013910310295436473,
+          "simulation_SE": 0.001738788786929559,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.3752218498367901,
+          "simulation_SD": 0.0019363057474853435,
+          "simulation_SE": 0.00024203821843566794,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.0016628208227789324,
+          "simulation_SD": 0.01389071997361169,
+          "simulation_SE": 0.0017363399967014613,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": -7.806255641895632e-18,
+          "simulation_SD": 1.3041686963674748e-16,
+          "simulation_SE": 1.6302108704593435e-17,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 8.673617379884035e-19,
+          "simulation_SD": 3.8929724431766645e-17,
+          "simulation_SE": 4.866215553970831e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -8.673617379884035e-18,
+          "simulation_SD": 1.2242804506315172e-16,
+          "simulation_SE": 1.5303505632893965e-17,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.0011127324201957764
+    },
+    {
+      "N": 97,
+      "alpha": 0.5,
+      "variant": "noncircular_L1",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.3732351198293893,
+          "simulation_SD": 0.01346530021412845,
+          "simulation_SE": 0.0016831625267660563,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.375945920910005,
+          "simulation_SD": 0.0021890483843238127,
+          "simulation_SE": 0.0002736310480404766,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.002710801080615729,
+          "simulation_SD": 0.013111593456293778,
+          "simulation_SE": 0.0016389491820367223,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": -2.3418766925686896e-17,
+          "simulation_SD": 1.3662163461309106e-16,
+          "simulation_SE": 1.7077704326636382e-17,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": -1.734723475976807e-18,
+          "simulation_SD": 4.529092891910359e-17,
+          "simulation_SE": 5.661366114887949e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -2.168404344971009e-17,
+          "simulation_SD": 1.5020029752412623e-16,
+          "simulation_SE": 1.8775037190515778e-17,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.001119928726018906
+    },
+    {
+      "N": 97,
+      "alpha": 1,
+      "variant": "noncircular_L1",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.3718293373363811,
+          "simulation_SD": 0.013287373530779707,
+          "simulation_SE": 0.0016609216913474633,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.37766754953629533,
+          "simulation_SD": 0.002435088765334034,
+          "simulation_SE": 0.00030438609566675427,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.005838212199914184,
+          "simulation_SD": 0.013086477295355831,
+          "simulation_SE": 0.0016358096619194789,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": -2.862293735361732e-17,
+          "simulation_SD": 1.3524981767864437e-16,
+          "simulation_SE": 1.6906227209830546e-17,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 7.806255641895632e-18,
+          "simulation_SD": 3.5478624340321564e-17,
+          "simulation_SE": 4.4348280425401955e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -3.642919299551295e-17,
+          "simulation_SD": 1.3960149289389483e-16,
+          "simulation_SE": 1.7450186611736854e-17,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.001161980349539351
+    },
+    {
+      "N": 197,
+      "alpha": 0,
+      "variant": "noncircular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.06829368513274434,
+          "simulation_SD": 0.0032294044500211587,
+          "simulation_SE": 0.00040367555625264484,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.06873588952679936,
+          "simulation_SD": 0.0015671487780439418,
+          "simulation_SE": 0.00019589359725549272,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.0004422043940550259,
+          "simulation_SD": 0.0031413899662006144,
+          "simulation_SE": 0.0003926737457750768,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 2.3821617753478404e-05,
+          "simulation_SD": 0.0014100947536333684,
+          "simulation_SE": 0.00017626184420417104,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 1.5320848783765151e-06,
+          "simulation_SD": 0.00012102341674478223,
+          "simulation_SE": 1.512792709309778e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 2.228953287510189e-05,
+          "simulation_SD": 0.0014248113661709373,
+          "simulation_SE": 0.00017810142077136717,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.0002321041809478032
+    },
+    {
+      "N": 197,
+      "alpha": 0.5,
+      "variant": "noncircular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.07404114103079718,
+          "simulation_SD": 0.003994502211239029,
+          "simulation_SE": 0.0004993127764048787,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.06930851444046364,
+          "simulation_SD": 0.001879238910472721,
+          "simulation_SE": 0.00023490486380909012,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.004732626590333531,
+          "simulation_SD": 0.0037470296109874657,
+          "simulation_SE": 0.0004683787013734332,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": -0.00016289544232815623,
+          "simulation_SD": 0.001503732046590971,
+          "simulation_SE": 0.00018796650582387136,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 9.345104121901435e-06,
+          "simulation_SD": 0.00011488278441925599,
+          "simulation_SE": 1.4360348052406999e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.00017224054645005767,
+          "simulation_SD": 0.0015118771603750045,
+          "simulation_SE": 0.00018898464504687557,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.00023949849931164427
+    },
+    {
+      "N": 197,
+      "alpha": 1,
+      "variant": "noncircular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.08687394632521664,
+          "simulation_SD": 0.005607527005673488,
+          "simulation_SE": 0.000700940875709186,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.07046143362076807,
+          "simulation_SD": 0.0024171350183073287,
+          "simulation_SE": 0.0003021418772884161,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.01641251270444857,
+          "simulation_SD": 0.004514228873144561,
+          "simulation_SE": 0.0005642786091430702,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": -0.00013239413873769677,
+          "simulation_SD": 0.0025065499518957144,
+          "simulation_SE": 0.0003133187439869643,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 7.16393250194472e-06,
+          "simulation_SD": 0.00011150636241386933,
+          "simulation_SE": 1.3938295301733666e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.00013955807123964149,
+          "simulation_SD": 0.002501442729650933,
+          "simulation_SE": 0.0003126803412063666,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.0002559001163423167
+    },
+    {
+      "N": 197,
+      "alpha": 0,
+      "variant": "circular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.06715912123982737,
+          "simulation_SD": 0.0031224081499150987,
+          "simulation_SE": 0.00039030101873938734,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.06759999103890295,
+          "simulation_SD": 0.0015911535890538295,
+          "simulation_SE": 0.00019889419863172868,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.00044086979907556286,
+          "simulation_SD": 0.0030972578485266604,
+          "simulation_SE": 0.00038715723106583254,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 2.710505431213761e-18,
+          "simulation_SD": 2.950709893390317e-17,
+          "simulation_SE": 3.688387366737896e-18,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 2.168404344971009e-19,
+          "simulation_SD": 8.739452232507795e-18,
+          "simulation_SE": 1.0924315290634743e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 2.4936649967166602e-18,
+          "simulation_SD": 3.059432854598572e-17,
+          "simulation_SE": 3.824291068248215e-18,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.00022516703853523882
+    },
+    {
+      "N": 197,
+      "alpha": 0.5,
+      "variant": "circular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.07275841697133303,
+          "simulation_SD": 0.0038313323985780597,
+          "simulation_SE": 0.00047891654982225746,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.06818464010190273,
+          "simulation_SD": 0.0019201820470763113,
+          "simulation_SE": 0.0002400227558845389,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.004573776869430308,
+          "simulation_SD": 0.0036587828697558925,
+          "simulation_SE": 0.00045734785871948656,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": -1.4094628242311558e-17,
+          "simulation_SD": 3.663316982784724e-17,
+          "simulation_SE": 4.579146228480905e-18,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": -2.168404344971009e-19,
+          "simulation_SD": 7.205676377844437e-18,
+          "simulation_SE": 9.007095472305547e-19,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -1.3877787807814457e-17,
+          "simulation_SD": 3.774356571013135e-17,
+          "simulation_SE": 4.717945713766419e-18,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.00023282133954961878
+    },
+    {
+      "N": 197,
+      "alpha": 1,
+      "variant": "circular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.08558194870444795,
+          "simulation_SD": 0.00554927358175062,
+          "simulation_SE": 0.0006936591977188275,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.0693533780659295,
+          "simulation_SD": 0.0024763793121582544,
+          "simulation_SE": 0.0003095474140197818,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.01622857063851843,
+          "simulation_SD": 0.004288471896609034,
+          "simulation_SE": 0.0005360589870761292,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 7.37257477290143e-18,
+          "simulation_SD": 4.8829229244093685e-17,
+          "simulation_SE": 6.1036536555117106e-18,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": -1.951563910473908e-18,
+          "simulation_SD": 9.207869589819278e-18,
+          "simulation_SE": 1.1509836987274097e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 9.324138683375338e-18,
+          "simulation_SD": 5.0070952878877105e-17,
+          "simulation_SE": 6.258869109859638e-18,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.00024797946435075946
+    },
+    {
+      "N": 197,
+      "alpha": 0,
+      "variant": "noncircular_L1",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.3467126798508517,
+          "simulation_SD": 0.01228655033487934,
+          "simulation_SE": 0.0015358187918599175,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.34775408315032497,
+          "simulation_SD": 0.0011463057768654797,
+          "simulation_SE": 0.00014328822210818497,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.001041403299473307,
+          "simulation_SD": 0.012191524037368973,
+          "simulation_SE": 0.0015239405046711216,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 9.540979117872439e-18,
+          "simulation_SD": 1.1430218303838816e-16,
+          "simulation_SE": 1.428777287979852e-17,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": -1.734723475976807e-18,
+          "simulation_SD": 4.9422346105261496e-17,
+          "simulation_SE": 6.177793263157687e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 1.1275702593849246e-17,
+          "simulation_SD": 1.2439425225328586e-16,
+          "simulation_SE": 1.5549281531660732e-17,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.0007591884476091163
+    },
+    {
+      "N": 197,
+      "alpha": 0.5,
+      "variant": "noncircular_L1",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.3467779332125562,
+          "simulation_SD": 0.012094162092966104,
+          "simulation_SE": 0.001511770261620763,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.348244685368676,
+          "simulation_SD": 0.0011684887021082844,
+          "simulation_SE": 0.00014606108776353554,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.001466752156119788,
+          "simulation_SD": 0.012034401596027304,
+          "simulation_SE": 0.001504300199503413,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 6.071532165918825e-18,
+          "simulation_SD": 1.0236571821111953e-16,
+          "simulation_SE": 1.2795714776389942e-17,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": -9.540979117872439e-18,
+          "simulation_SD": 4.3737141651481593e-17,
+          "simulation_SE": 5.467142706435199e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 1.5612511283791264e-17,
+          "simulation_SD": 1.0442428799480064e-16,
+          "simulation_SE": 1.305303599935008e-17,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.0007677540146503361
+    },
+    {
+      "N": 197,
+      "alpha": 1,
+      "variant": "noncircular_L1",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.3475634125296617,
+          "simulation_SD": 0.011309593751675126,
+          "simulation_SE": 0.0014136992189593908,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.34911851858760024,
+          "simulation_SD": 0.0013286312694063152,
+          "simulation_SE": 0.0001660789086757894,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.0015551060579384636,
+          "simulation_SD": 0.011249936946168803,
+          "simulation_SE": 0.0014062421182711004,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 2.0816681711721685e-17,
+          "simulation_SD": 1.2724008668451862e-16,
+          "simulation_SE": 1.5905010835564828e-17,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 1.3010426069826053e-17,
+          "simulation_SD": 3.3892176758101374e-17,
+          "simulation_SE": 4.236522094762672e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 7.806255641895632e-18,
+          "simulation_SD": 1.2890795101022832e-16,
+          "simulation_SE": 1.611349387627854e-17,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.0007932640208405473
+    },
+    {
+      "N": 788,
+      "alpha": 0,
+      "variant": "noncircular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.04581611297588627,
+          "simulation_SD": 0.0011724388836754673,
+          "simulation_SE": 0.0001465548604594334,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.04616955300894083,
+          "simulation_SD": 0.0005106753159466714,
+          "simulation_SE": 6.383441449333393e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.0003534400330545697,
+          "simulation_SD": 0.0011140465600836258,
+          "simulation_SE": 0.00013925582001045322,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 1.3294313151239489e-05,
+          "simulation_SD": 0.0002974274249507165,
+          "simulation_SE": 3.717842811883956e-05,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 3.2413879955747607e-06,
+          "simulation_SD": 2.307358352491451e-05,
+          "simulation_SE": 2.8841979406143136e-06,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 1.0052925155664728e-05,
+          "simulation_SD": 0.0003018506408184991,
+          "simulation_SE": 3.773133010231239e-05,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 9.273167238695764e-05
+    },
+    {
+      "N": 788,
+      "alpha": 0.5,
+      "variant": "noncircular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.05391962738174623,
+          "simulation_SD": 0.0024409853844519877,
+          "simulation_SE": 0.00030512317305649847,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.04633462835157849,
+          "simulation_SD": 0.0005963719423684608,
+          "simulation_SE": 7.45464927960576e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.007584999030167725,
+          "simulation_SD": 0.0021903607619958338,
+          "simulation_SE": 0.0002737950952494792,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 2.016530621262193e-05,
+          "simulation_SD": 0.0005671981723341751,
+          "simulation_SE": 7.089977154177189e-05,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 1.982084752701692e-06,
+          "simulation_SD": 2.1871119161260738e-05,
+          "simulation_SE": 2.7338898951575922e-06,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 1.818322145992024e-05,
+          "simulation_SD": 0.0005678252688768175,
+          "simulation_SE": 7.097815860960219e-05,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 9.419618064295753e-05
+    },
+    {
+      "N": 788,
+      "alpha": 1,
+      "variant": "noncircular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.06844995861236597,
+          "simulation_SD": 0.0028307479237750185,
+          "simulation_SE": 0.0003538434904718773,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.046807570152447374,
+          "simulation_SD": 0.000740295583959696,
+          "simulation_SE": 9.2536947994962e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.02164238845991859,
+          "simulation_SD": 0.002299354914358823,
+          "simulation_SE": 0.0002874193642948529,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": -0.00011138907301107303,
+          "simulation_SD": 0.0005620237454974902,
+          "simulation_SE": 7.025296818718627e-05,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 3.463117609561186e-06,
+          "simulation_SD": 2.1610439231150726e-05,
+          "simulation_SE": 2.701304903893841e-06,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.00011485219062063422,
+          "simulation_SD": 0.0005660183584763448,
+          "simulation_SE": 7.07522948095431e-05,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.00010204092553142666
+    },
+    {
+      "N": 788,
+      "alpha": 0,
+      "variant": "circular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.0456913330441395,
+          "simulation_SD": 0.0011634264332394673,
+          "simulation_SE": 0.0001454283041549334,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.04605207817910477,
+          "simulation_SD": 0.0005115955862787297,
+          "simulation_SE": 6.394944828484121e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.0003607451349652692,
+          "simulation_SD": 0.0010739645939515706,
+          "simulation_SE": 0.00013424557424394633,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 2.4936649967166602e-18,
+          "simulation_SD": 2.343711659896308e-17,
+          "simulation_SE": 2.929639574870385e-18,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": -6.505213034913027e-19,
+          "simulation_SD": 6.852305861414051e-18,
+          "simulation_SE": 8.565382326767564e-19,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 3.144186300207963e-18,
+          "simulation_SD": 2.438206684562691e-17,
+          "simulation_SE": 3.047758355703364e-18,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 9.206823605279285e-05
+    },
+    {
+      "N": 788,
+      "alpha": 0.5,
+      "variant": "circular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.05387264619574242,
+          "simulation_SD": 0.002321057580921329,
+          "simulation_SE": 0.0002901321976151661,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.046216357506360085,
+          "simulation_SD": 0.0005975896067491116,
+          "simulation_SE": 7.469870084363895e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.007656288689382328,
+          "simulation_SD": 0.002067669781981601,
+          "simulation_SE": 0.0002584587227477001,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 7.589415207398531e-19,
+          "simulation_SD": 3.296898356457921e-17,
+          "simulation_SE": 4.1211229455724016e-18,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": -4.336808689942018e-19,
+          "simulation_SD": 7.195726072000514e-18,
+          "simulation_SE": 8.994657590000643e-19,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 1.1926223897340549e-18,
+          "simulation_SD": 3.5458255173685164e-17,
+          "simulation_SE": 4.4322818967106455e-18,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 9.360049152083063e-05
+    },
+    {
+      "N": 788,
+      "alpha": 1,
+      "variant": "circular_L10",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.06829717684437897,
+          "simulation_SD": 0.002774590159410309,
+          "simulation_SE": 0.00034682376992628864,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.04669541493973607,
+          "simulation_SD": 0.0007415931417472749,
+          "simulation_SE": 9.269914271840936e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.0216017619046429,
+          "simulation_SD": 0.002256352519777195,
+          "simulation_SE": 0.00028204406497214936,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": -4.9873299934333204e-18,
+          "simulation_SD": 7.349124379967617e-17,
+          "simulation_SE": 9.186405474959521e-18,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 6.505213034913027e-19,
+          "simulation_SD": 6.852305861414051e-18,
+          "simulation_SE": 8.565382326767564e-19,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -5.637851296924623e-18,
+          "simulation_SD": 7.276391802780696e-17,
+          "simulation_SE": 9.09548975347587e-18,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.00010151628198049014
+    },
+    {
+      "N": 788,
+      "alpha": 0,
+      "variant": "noncircular_L1",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.31558949283660676,
+          "simulation_SD": 0.0050692851469884646,
+          "simulation_SE": 0.0006336606433735581,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.31627049711453287,
+          "simulation_SD": 0.0004293561532307932,
+          "simulation_SE": 5.366951915384915e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.0006810042779261385,
+          "simulation_SD": 0.005131565703495194,
+          "simulation_SE": 0.0006414457129368992,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": -2.5153490401663703e-17,
+          "simulation_SD": 1.1948043180292397e-16,
+          "simulation_SE": 1.4935053975365496e-17,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 1.734723475976807e-18,
+          "simulation_SD": 3.122808189474096e-17,
+          "simulation_SE": 3.90351023684262e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -2.688821387764051e-17,
+          "simulation_SD": 1.2392644104733793e-16,
+          "simulation_SE": 1.5490805130917242e-17,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.0003739778910173664
+    },
+    {
+      "N": 788,
+      "alpha": 0.5,
+      "variant": "noncircular_L1",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.31608858322625716,
+          "simulation_SD": 0.00501347604938701,
+          "simulation_SE": 0.0006266845061733763,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.31648103817060186,
+          "simulation_SD": 0.00044165453759853273,
+          "simulation_SE": 5.520681719981659e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.00039245494434466104,
+          "simulation_SD": 0.005090486619930298,
+          "simulation_SE": 0.0006363108274912873,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": 5.204170427930421e-18,
+          "simulation_SD": 1.1351382487365993e-16,
+          "simulation_SE": 1.418922810920749e-17,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 5.204170427930421e-18,
+          "simulation_SD": 2.5637117747864445e-17,
+          "simulation_SE": 3.2046397184830556e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": 0.0,
+          "simulation_SD": 1.1406457265696477e-16,
+          "simulation_SE": 1.4258071582120596e-17,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.00037695238016657466
+    },
+    {
+      "N": 788,
+      "alpha": 1,
+      "variant": "noncircular_L1",
+      "original": {
+        "observed_rho2": {
+          "mean": 0.3159861813882703,
+          "simulation_SD": 0.005145231202415739,
+          "simulation_SE": 0.0006431539003019673,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 0.316984277306976,
+          "simulation_SD": 0.00046723944658585623,
+          "simulation_SE": 5.840493082323203e-05,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -0.0009980959187056984,
+          "simulation_SD": 0.005213602372546501,
+          "simulation_SE": 0.0006517002965683126,
+          "replicates": 64
+        }
+      },
+      "common_phase_change": {
+        "observed_rho2": {
+          "mean": -5.204170427930421e-18,
+          "simulation_SD": 1.340607665051802e-16,
+          "simulation_SE": 1.6757595813147525e-17,
+          "replicates": 64
+        },
+        "reference_mean": {
+          "mean": 5.204170427930421e-18,
+          "simulation_SD": 3.663382177381375e-17,
+          "simulation_SE": 4.5792277217267184e-18,
+          "replicates": 64
+        },
+        "J": {
+          "mean": -1.0408340855860843e-17,
+          "simulation_SD": 1.3520743068851634e-16,
+          "simulation_SE": 1.6900928836064543e-17,
+          "replicates": 64
+        }
+      },
+      "mean_conditional_reference_MCSE": 0.000386228374644377
+    }
+  ],
+  "precision": {
+    "target": {
+      "N": 788,
+      "alpha_low": 0,
+      "alpha_high": 1,
+      "variant": "noncircular_L10",
+      "metric": "J",
+      "maximum_simulation_SE": 0.002
+    },
+    "observed_simulation_SE": 0.0002885496128277164,
+    "met": true,
+    "consequence_if_unmet": "Limited precision; no adaptive rerun or sample expansion."
+  },
+  "boundary_diagnostics": {
+    "maximum_recorded_check_values": {
+      "circular_gram_relative_error": 3.1930837783062327e-15,
+      "noncircular_gram_relative_change": 0.37974124369429013,
+      "boundary_difference_balance_relative_error": 3.2421067827311433e-15,
+      "partition_relative_error": 2.1509579416090106e-16,
+      "prefix_max_error": 0.0,
+      "common_cross_spectrum_relative_error": 1.2727039254927527e-15,
+      "marginal_spectrum_relative_error": 1.3439561398617085e-15
+    },
+    "by_cell": [
+      {
+        "N": 97,
+        "alpha": 0,
+        "banks": 64,
+        "original_boundary_energy_fraction_mean": 0.0909668970708791,
+        "common_phase_J_change": {
+          "noncircular_L10": {
+            "mean_absolute_pp": 0.2652699833124632,
+            "maximum_absolute_pp": 1.2952474364461648
+          },
+          "circular_L10": {
+            "mean_absolute_pp": 3.903127820947816e-15,
+            "maximum_absolute_pp": 1.5265566588595902e-14
+          },
+          "noncircular_L1": {
+            "mean_absolute_pp": 8.847089727481716e-15,
+            "maximum_absolute_pp": 3.3306690738754696e-14
+          }
+        }
+      },
+      {
+        "N": 97,
+        "alpha": 0.5,
+        "banks": 64,
+        "original_boundary_energy_fraction_mean": 0.09123942698171462,
+        "common_phase_J_change": {
+          "noncircular_L10": {
+            "mean_absolute_pp": 0.2610452267588198,
+            "maximum_absolute_pp": 0.6812114757942676
+          },
+          "circular_L10": {
+            "mean_absolute_pp": 4.076600168545497e-15,
+            "maximum_absolute_pp": 1.3877787807814457e-14
+          },
+          "noncircular_L1": {
+            "mean_absolute_pp": 1.205632815803881e-14,
+            "maximum_absolute_pp": 3.3306690738754696e-14
+          }
+        }
+      },
+      {
+        "N": 97,
+        "alpha": 1,
+        "banks": 64,
+        "original_boundary_energy_fraction_mean": 0.0912262211867785,
+        "common_phase_J_change": {
+          "noncircular_L10": {
+            "mean_absolute_pp": 0.37479134829972727,
+            "maximum_absolute_pp": 1.7535503682954368
+          },
+          "circular_L10": {
+            "mean_absolute_pp": 4.098284211995207e-15,
+            "maximum_absolute_pp": 1.1102230246251565e-14
+          },
+          "noncircular_L1": {
+            "mean_absolute_pp": 1.0928757898653885e-14,
+            "maximum_absolute_pp": 4.440892098500626e-14
+          }
+        }
+      },
+      {
+        "N": 197,
+        "alpha": 0,
+        "banks": 64,
+        "original_boundary_energy_fraction_mean": 0.044905352695482945,
+        "common_phase_J_change": {
+          "noncircular_L10": {
+            "mean_absolute_pp": 0.11181813464688047,
+            "maximum_absolute_pp": 0.3644414416274333
+          },
+          "circular_L10": {
+            "mean_absolute_pp": 2.3960868011929648e-15,
+            "maximum_absolute_pp": 6.938893903907228e-15
+          },
+          "noncircular_L1": {
+            "mean_absolute_pp": 9.280770596475918e-15,
+            "maximum_absolute_pp": 3.3306690738754696e-14
+          }
+        }
+      },
+      {
+        "N": 197,
+        "alpha": 0.5,
+        "banks": 64,
+        "original_boundary_energy_fraction_mean": 0.04474348666050152,
+        "common_phase_J_change": {
+          "noncircular_L10": {
+            "mean_absolute_pp": 0.11381080444298644,
+            "maximum_absolute_pp": 0.5203546639739431
+          },
+          "circular_L10": {
+            "mean_absolute_pp": 3.1225022567582528e-15,
+            "maximum_absolute_pp": 9.71445146547012e-15
+          },
+          "noncircular_L1": {
+            "mean_absolute_pp": 8.326672684688674e-15,
+            "maximum_absolute_pp": 2.7755575615628914e-14
+          }
+        }
+      },
+      {
+        "N": 197,
+        "alpha": 1,
+        "banks": 64,
+        "original_boundary_energy_fraction_mean": 0.044680052603153844,
+        "common_phase_J_change": {
+          "noncircular_L10": {
+            "mean_absolute_pp": 0.1814070369159081,
+            "maximum_absolute_pp": 0.7029352115255905
+          },
+          "circular_L10": {
+            "mean_absolute_pp": 4.0115480381963664e-15,
+            "maximum_absolute_pp": 1.3877787807814457e-14
+          },
+          "noncircular_L1": {
+            "mean_absolute_pp": 9.974659986866641e-15,
+            "maximum_absolute_pp": 3.885780586188048e-14
+          }
+        }
+      },
+      {
+        "N": 788,
+        "alpha": 0,
+        "banks": 64,
+        "original_boundary_energy_fraction_mean": 0.011271959065682692,
+        "common_phase_J_change": {
+          "noncircular_L10": {
+            "mean_absolute_pp": 0.023301659847697866,
+            "maximum_absolute_pp": 0.07703476225197348
+          },
+          "circular_L10": {
+            "mean_absolute_pp": 1.8973538018496328e-15,
+            "maximum_absolute_pp": 6.2450045135165055e-15
+          },
+          "noncircular_L1": {
+            "mean_absolute_pp": 9.974659986866641e-15,
+            "maximum_absolute_pp": 3.3306690738754696e-14
+          }
+        }
+      },
+      {
+        "N": 788,
+        "alpha": 0.5,
+        "banks": 64,
+        "original_boundary_energy_fraction_mean": 0.011309463840296852,
+        "common_phase_J_change": {
+          "noncircular_L10": {
+            "mean_absolute_pp": 0.043162791628998526,
+            "maximum_absolute_pp": 0.1651068128496934
+          },
+          "circular_L10": {
+            "mean_absolute_pp": 2.721347452938616e-15,
+            "maximum_absolute_pp": 9.020562075079397e-15
+          },
+          "noncircular_L1": {
+            "mean_absolute_pp": 8.326672684688674e-15,
+            "maximum_absolute_pp": 3.885780586188048e-14
+          }
+        }
+      },
+      {
+        "N": 788,
+        "alpha": 1,
+        "banks": 64,
+        "original_boundary_energy_fraction_mean": 0.011335109929299514,
+        "common_phase_J_change": {
+          "noncircular_L10": {
+            "mean_absolute_pp": 0.04608745775826542,
+            "maximum_absolute_pp": 0.14340483853530345
+          },
+          "circular_L10": {
+            "mean_absolute_pp": 5.7462715141731735e-15,
+            "maximum_absolute_pp": 1.8041124150158794e-14
+          },
+          "noncircular_L1": {
+            "mean_absolute_pp": 1.0408340855860843e-14,
+            "maximum_absolute_pp": 3.3306690738754696e-14
+          }
+        }
+      }
+    ]
+  },
+  "scope": "Unit conversion, declared boundary-diagnostic summaries and presentation only; all 27 cells retained; no new tests or fit."
+}
